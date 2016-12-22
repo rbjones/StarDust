@@ -6,7 +6,7 @@ Here is the structure which I envisage, broken down by repository, all to be hos
 I consider painting this big picture, with sketches in each of the constituent repositories, as a very important preliminary to serious development work, though I don't exclude some prototyping while it is in progress.
 And I expect it all to take a good while.
 
-I now have in mind a set of five parts, and I'm going to sketch them all here and replicate the sketch in the README and wiki of the top-level repo.
+I now have in mind a set of five parts, and I'm going to sketch them all here:
 
 ## StarDust
 
