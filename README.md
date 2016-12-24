@@ -16,14 +16,6 @@ The role of this is to plot the thinking as far into the future, and as far out 
 There are then three repos into which main substance of the work are divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
 The first (or is it the second?) fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
 
-## DA-Value
-
-DA-Value covers the evaluative propositions, and generally the kind of thing which Aristotle would have classified as _practical science_.
-Ethics, Politics, Economics.
-How to decide, articulate and effect our morals and preferences, individually and collectively.
-
-Descriptive propositions are then further divided along the lines of Hume's other fork:
-
 ## DA-Hol
 
 DA-Hol is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
@@ -37,6 +29,14 @@ The interpretation of this domain of contingent rather than necessary truth whic
 In this part of the project we consider how mathematical models of the physical world can be constructed using the infrastructure provided by **DA-Hol**, how these are related to the sense data, coming in the future primarily from IOT online sensors, and how reasoning using these models about how to achieve the aims articulated or derived from **DA-Value** leads through activators, which may be IOT devices, to the implementation of desired transformations in the material universe.
 
 The final component, out on a limb, is:
+
+## DA-Value
+
+DA-Value covers the evaluative propositions, and generally the kind of thing which Aristotle would have classified as _practical science_.
+Ethics, Politics, Economics.
+How to decide, articulate and effect our morals and preferences, individually and collectively.
+
+Descriptive propositions are then further divided along the lines of Hume's other fork:
 
 ## CreativeDAO
 
