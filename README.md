@@ -1,3 +1,6 @@
+[![Join the chat at https://gitter.im/gitterHQ/gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gitterHQ/gitter)
+
+
 # StarDust
 
 This repository is one of a group of five which I have created in a bid for cosmic mindspace, and provides top cover for this enterprise, addressing the biggest issues in the complete opus and defining the place and scope of the four other subprojects.
