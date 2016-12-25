@@ -2,8 +2,6 @@
 
 # StarDust
 
-[![Join the chat at https://gitter.im/Star_Dust/Lobby](https://badges.gitter.im/Star_Dust/Lobby.svg)](https://gitter.im/Star_Dust/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This repository is one of a group of five which I have created in a bid for cosmic mindspace, and provides top cover for this enterprise, addressing the biggest issues in the complete opus and defining the place and scope of the four other subprojects.
 
 Here is the structure which I envisage, broken down by repository, all to be hosted on GitHub, and mostly to be just a wiki, without even a definite idea about software, for a good while.
