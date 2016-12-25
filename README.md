@@ -1,5 +1,4 @@
-[![Join the chat at https://gitter.im/gitterHQ/gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gitterHQ/gitter)
-
+[![Join the chat at https://gitter.im/gitterHQ/gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Star_Dust/Lobby)
 
 # StarDust
 
