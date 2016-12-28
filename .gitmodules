@@ -4,6 +4,3 @@
 [submodule "wikibook/DA-Value.wiki"]
 	path = wikibook/DA-Value.wiki
 	url = https://github.com/rbjones/DA-Value.wiki
-[submodule "wikibook/StarDust.wiki"]
-	path = wikibook/StarDust.wiki
-	url = https://github.com/rbjones/StarDust.wiki
