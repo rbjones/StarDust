@@ -56,7 +56,9 @@ StarDust.pdf: StarDust.tex
 	xelatex StarDust
 	xelatex StarDust
 	xelatex StarDust
+	cp StarDust.pdf ../docs
 
 locmdfiles: $(MDFILES)
 	cp -r *.wiki ../docs
+	rm ../docs/*.wiki/.git
 	touch locmdfiles
