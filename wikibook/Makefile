@@ -59,6 +59,7 @@ StarDust.pdf: StarDust.tex
 	cp StarDust.pdf ../docs
 
 locmdfiles: $(MDFILES)
+	rm -rf ../docs/*.wiki
 	cp -r *.wiki ../docs
 	rm ../docs/*.wiki/.git
 	touch locmdfiles
