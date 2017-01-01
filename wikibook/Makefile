@@ -23,7 +23,7 @@ MDFILES+= StarDust.wiki/The-Architecture.md
 MDFILES+= StarDust.wiki/The-Strategy.md
 MDFILES+= DA-Value.wiki/Refining-and-Effecting-Value-Systems.md
 MDFILES+= SensAct.wiki/Sense,-Model,-Plan,-Action.md
-MDFILES+= DA-Hol.wiki/Propositional-Language,-Truth,-and-Deductive-Logic.md
+MDFILES+= DA-Hol.wiki/Language-Truth-and-Logic.md
 MDFILES+= DA-Hol.wiki/The-Philosophy.md
 MDFILES+= DA-Hol.wiki/Some-Philosophical-Background.md
 MDFILES+= DA-Hol.wiki/What-Carnap?s-Philosophy-was-not.md
@@ -38,6 +38,8 @@ MDFILES+= DA-Hol.wiki/HOL-for-Knowledge-Representation.md
 MDFILES+= DA-Hol.wiki/Language-and-Logic.md
 MDFILES+= DA-Hol.wiki/Strategy-and-Plan.md
 MDFILES+= DA-Hol.wiki/The-Plan.md
+
+LOCMDFILES=$(MDFILES:%=../doc/%)
 
 StarDust.md:$(MDFILES) Makefile
 	cat $(MDFILES) > StarDust.md
@@ -54,3 +56,7 @@ StarDust.pdf: StarDust.tex
 	xelatex StarDust
 	xelatex StarDust
 	xelatex StarDust
+
+locmdfiles: $(MDFILES)
+	cp -r *.wiki ../docs
+	touch locmdfiles
