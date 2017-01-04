@@ -26,7 +26,7 @@ We propose an architectural framework capable of supporting the development of a
 The proposed architecture is a stack of three layers.
 The lowest is pure logic, the next supports descriptive formal models, their establishment from sensory inputs and their application in effecting change through actuators, and the highest in developing value systems and deploying these in choice of courses of action to be effected by the lower layers.
 
-- **[The Strategy](the strategy)**
+- **[The Strategy](The-Strategy)**
 The strategy addresses both technical matters pertinent to realisation of the ambition and organisational and financial considerations essential to implementation and proliferation.
 
 

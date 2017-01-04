@@ -41,6 +41,13 @@ MDFILES+= DA-Hol.wiki/The-Plan.md
 
 LOCMDFILES=$(MDFILES:%=../doc/%)
 
+default:
+	@echo "StarDust wikibook makefile"
+	@echo "=========================="
+	@echo "StarDust.pdf\tmake pdf of wikibook"
+	@echo "locmdfiles\tcopy the wiki files to the docs folder for the website"
+
+
 StarDust.md:$(MDFILES) Makefile
 	cat $(MDFILES) > StarDust.md
 
