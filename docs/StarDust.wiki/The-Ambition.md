@@ -5,7 +5,7 @@
 
 The ambition here is broad.
 
-- [The Deductive Paradigm Shift](The Deductive Paradigm Shift)  
+- [The Deductive Paradigm Shift](The-Deductive-Paradigm-Shift)  
 To understand the proposal you must first engaged with the idea of a major paradigm shift in the way that computers process information.
 - [Formal Mathematics] (Formal-Mathematics)  
 The formalisation and automation of deductive mathematics
@@ -13,7 +13,7 @@ The formalisation and automation of deductive mathematics
 - [Deductive Cloud](Deductive-Cloud)
 Not just mathematics, but science, engineering and technology can be formalised as mathematical models in Higher Order Logic.
 Our knowledge of the world can be rendered in mathematics and made more amenable to rigorous deduction than it would otherwise be, a "semantic web" in abstract HOL (with diverse concrete presentations)
-- [General Deductive Intelligence](General Deductive Intelligence)
+- [General Deductive Intelligence](General-Deductive-Intelligence)
 Our architecture is intended to provide a suitable context for collaboration between man and machine, each learning from the other, learning and evolving in a competitive autonomous marketplace
 - [Deductive Smart Contracts]  
 Deductive proof delivers trustworthy results, and the proposed architecture delivers graduated levels of confidence depending on how trustworthy the various premises and deductive agents involved in the proof are.
