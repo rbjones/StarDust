@@ -37,7 +37,8 @@ The meaning of the phrase "there exists a pure extensional set x such that P x" 
 
 Bertrand Russell talked of such entities as "logical fictions".
 This is a position which we could here also adopt without any pragmatic consequences.
-I don't care for it myself, because to call something a fiction is to deny its existence, and since we are in the business of devising new languages for technical purposes, we get to chose what 
+I don't care for it myself, because to call something a fiction is to deny its existence, and since we are in the business of devising new languages for technical purposes, we get to chose what "exists" means for the abstract entities which are in the domain of discourse of these languages, and in relation to that chosen meaning, the existential theorems provable can reasonably be said to be true rather than fictional.
+
 
 
 

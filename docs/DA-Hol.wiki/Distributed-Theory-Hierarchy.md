@@ -58,14 +58,14 @@ The problem is particularly difficult for data sources which are dynamic, for if
 There are two distinct classes of method which can be used to reason about static data in the cloud.
 These both depend on a formal semantics for the data in question.
 In the first case this is given in the meta-language, and results in the alien data source being defined as an alternative concrete syntax for HOL.
-Im the second case the data is treated as a HOL data value, possibly a finite sequence of characters, and a function is defined in HOL which maps values of this kind into whatever values or propositions best represent then in the appropriate HOL contexts.
+In the second case the data is treated as a HOL data value, possibly a finite sequence of characters, and a function is defined in HOL which maps values of this kind into whatever values or propositions best represent then in the appropriate HOL contexts.
 
 Thus, for example, a table with two columns, one a social security number, the second an age, might be imported into a HOL context in which there is a predicate A(n,y) which means "the person whose social security number is n has age y years", using a function which maps a table of two such columns to the conjunction of the set of predicates A(n,m) for all values n and m which occur together in some row of the table.  
 A context can be created which imports a non-native data source into a DA-Hol context by treating the data source as concrete syntax for a new language whose abstract syntax is rendered in abstract HOL.
 
-This involves defining me a meta-context (using HOL) the concrete syntax of the language, how this maps to its abstract syntax, and how the abstract syntax of the language is represented as HOL.
+This involves defining in a meta-context (using HOL) the concrete syntax of the language, how this maps to its abstract syntax, and how the abstract syntax of the language is represented as HOL.
 Thus would typically revolve around defining in HOL new constants which correspond to the constructors in the abstract syntax and capture the semantics of that kind of structure in the language.
-This the classic patter for a "shallow" semantic embedding.  
+This the classic pattern for a "shallow" semantic embedding.  
 
 Once that is done, the data can be imported to create a matching HOL context.
 

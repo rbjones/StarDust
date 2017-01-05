@@ -24,13 +24,13 @@ The technical strategy is essentially _architecture_ then _intelligence_ then _a
 But of course, it is essential that the earlier stages are exposed to feedback from prototyping and implementing the later stages.
 
 I did set out hoping to complete a manifesto first, and then move on to design and prototyping, but of course that's not going to happen.
-The manifesto and the follow-up in more detailed architecture and design, will be strung out over a longer time period than I would like, while work also begins on prototyping key elemants of the architecture.
+The manifesto and the follow-up in more detailed architecture and design, will be strung out over a longer time period than I would like, while work also begins on prototyping key elements of the architecture.
 
 The aim is to move to an intelligent deductive capability in a good architectural context at the earliest possible moment, oriented to relatively simple applications which can drive the early economics and drive work into the learning process.
 While I do want to see a sound and well-documented philosophical and logical basis, I don't want this to delay getting a practical grip on the technologies involved, so I am hoping that some kinds of prototyping activities will be undertaken from the very beginning.
 
 - First of all, build the story, the big picture, in the wiki
-- Second, work out some detail (possibly have to step outside the wiki for the more detailed parts) turning the sketch into an architecture, and then into successive levels 0f design for key elements.
+- Second, work out some detail (possibly have to step outside the wiki for the more detailed parts) turning the sketch into an architecture, and then into successive levels of design for key elements.
 
 
 
