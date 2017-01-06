@@ -1,6 +1,3 @@
-[submodule "wikibook/DA-Hol.wiki"]
-	path = wikibook/DA-Hol.wiki
-	url = https://github.com/rbjones/DA-Hol.wiki
 [submodule "wikibook/StarDust.wiki"]
 	path = wikibook/StarDust.wiki
 	url = https://github.com/rbjones/StarDust.wiki
@@ -13,3 +10,6 @@
 [submodule "wikibook/HoLoVal.wiki"]
 	path = wikibook/HoLoVal.wiki
 	url = https://github.com/rbjones/HoLoVal.wiki
+[submodule "wikibook/HoLoTruth.wiki"]
+	path = wikibook/HoLoTruth.wiki
+	url = https://github.com/rbjones/HoLoTruth.wiki

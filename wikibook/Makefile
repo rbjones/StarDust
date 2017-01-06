@@ -23,21 +23,21 @@ MDFILES+= StarDust.wiki/The-Architecture.md
 MDFILES+= StarDust.wiki/The-Strategy.md
 MDFILES+= HoLoVal.wiki/Refining-and-Effecting-Value-Systems.md
 MDFILES+= HoLoMod.wiki/Sense,-Model,-Plan,-Action.md
-MDFILES+= DA-Hol.wiki/Language-Truth-and-Logic.md
-MDFILES+= DA-Hol.wiki/The-Philosophy.md
-MDFILES+= DA-Hol.wiki/Some-Philosophical-Background.md
-MDFILES+= DA-Hol.wiki/What-Carnap?s-Philosophy-was-not.md
-MDFILES+= DA-Hol.wiki/The-Problem-and-the-Method.md
-MDFILES+= DA-Hol.wiki/Preliminary-Discussion.md
-MDFILES+= DA-Hol.wiki/Metaphysics-and-Ontology.md
-MDFILES+= DA-Hol.wiki/The-Architecture.md
-MDFILES+= DA-Hol.wiki/The-Logical-Kernel.md
-MDFILES+= DA-Hol.wiki/Distributed-Theory-Hierarchy.md
-MDFILES+= DA-Hol.wiki/Logical-Contexts.md
-MDFILES+= DA-Hol.wiki/HOL-for-Knowledge-Representation.md
-MDFILES+= DA-Hol.wiki/Language-and-Logic.md
-MDFILES+= DA-Hol.wiki/Strategy-and-Plan.md
-MDFILES+= DA-Hol.wiki/The-Plan.md
+MDFILES+= HoLoTruth.wiki/Language-Truth-and-Logic.md
+MDFILES+= HoLoTruth.wiki/The-Philosophy.md
+MDFILES+= HoLoTruth.wiki/Some-Philosophical-Background.md
+MDFILES+= HoLoTruth.wiki/What-Carnap?s-Philosophy-was-not.md
+MDFILES+= HoLoTruth.wiki/The-Problem-and-the-Method.md
+MDFILES+= HoLoTruth.wiki/Preliminary-Discussion.md
+MDFILES+= HoLoTruth.wiki/Metaphysics-and-Ontology.md
+MDFILES+= HoLoTruth.wiki/The-Architecture.md
+MDFILES+= HoLoTruth.wiki/The-Logical-Kernel.md
+MDFILES+= HoLoTruth.wiki/Distributed-Theory-Hierarchy.md
+MDFILES+= HoLoTruth.wiki/Logical-Contexts.md
+MDFILES+= HoLoTruth.wiki/HOL-for-Knowledge-Representation.md
+MDFILES+= HoLoTruth.wiki/Language-and-Logic.md
+MDFILES+= HoLoTruth.wiki/Strategy-and-Plan.md
+MDFILES+= HoLoTruth.wiki/The-Plan.md
 
 LOCMDFILES=$(MDFILES:%=../doc/%)
 
