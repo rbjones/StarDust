@@ -4,9 +4,6 @@
 [submodule "wikibook/HoLoMod.wiki"]
 	path = wikibook/HoLoMod.wiki
 	url = https://github.com/rbjones/HoLoMod.wiki
-[submodule "wikibook/HoLoVal"]
-	path = wikibook/HoLoVal
-	url = https://github.com/rbjones/HoLoVal
 [submodule "wikibook/HoLoVal.wiki"]
 	path = wikibook/HoLoVal.wiki
 	url = https://github.com/rbjones/HoLoVal.wiki
