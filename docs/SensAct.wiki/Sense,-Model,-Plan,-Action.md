@@ -1,3 +1,0 @@
-
-# Sense, Model, Plan, Action
-
