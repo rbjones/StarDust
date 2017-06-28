@@ -9,7 +9,14 @@
 # The main task is simply to list the files in the required order.
 
 MDFILES=
-MDFILES+= StarDust.wiki/Home.md
+MDFILES+= StarDust.wiki/1.md
+MDFILES+= StarDust.wiki/1.1.md
+MDFILES+= StarDust.wiki/1.1.1.md
+MDFILES+= StarDust.wiki/1.1.2.md
+MDFILES+= StarDust.wiki/1.2.md
+MDFILES+= StarDust.wiki/1.2.1.md
+MDFILES+= StarDust.wiki/1.2.2.md
+MDFILES+= StarDust.wiki/1.3.md
 MDFILES+= StarDust.wiki/The-Ambition.md
 MDFILES+= StarDust.wiki/The-Cognitive-Cosmos.md
 MDFILES+= StarDust.wiki/The-Deductive-Paradigm-Shift.md
