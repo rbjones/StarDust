@@ -6,7 +6,7 @@ The proposed cognitive cosmos may be thought of as formed in three layers.
 Beneath this top level the enterprise is structured into three layers, which correspond to different kinds of knowledge, with correspondingly different ways of establishing and exploiting knowledge.
 Its best to describe these from the bottom up, and we give here only the briefest descriptions with links to the separate wiki for each layer.
 
-- [HoloTruth](https://github.com/rbjones/HoloTruth/wiki) The most fundamental layer in this structure is concerned with knowledge _a priori_, by which is meant knowledge, such as that of logic and mathematics, which tells us nothing about, and therefore can be established and used without reference to the state of the observable physical world.
+- [HoLoTruth](https://github.com/rbjones/HoLoTruth/wiki) The most fundamental layer in this structure is concerned with knowledge _a priori_, by which is meant knowledge, such as that of logic and mathematics, which tells us nothing about, and therefore can be established and used without reference to the state of the observable physical world.
 
 - [HoLoMod](https://github.com/rbjones/HoLoMod/wiki) The next layer is concerned with knowledge _a posteriori_, i.e. obtained from observations of and experiments in the physical world around us.
 This includes formal accounts of hard science, and engineering and many other matters, and it formalisation is through logical or mathematical models of the physical world.
