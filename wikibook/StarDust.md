@@ -26,7 +26,7 @@ This StarDust repo provides the highest level view, gives a first indication of 
 
 The aim is to contribute to the realisation of [_hybrid deductive intelligence_](1.0.1) and its applications, and ultimately to [_universal fulfilment_](1.1.2).
 
-This automation is intended to encompass the whole of mathematics, particularly of course, the theoretical development of mathematics, reaching its most abstract and abstruse parts, though most likely addressing applicable mathematics first. This cannot be achieved without intelligence of a high order, and is therefore beyond the present state-of-the-art for completely automated reasoning. And so, in this project we envisage, as in the field of Interactive Theorem Proving, that less trivial results will be realised (at least in the early stages) by man and machine working together, to which arrangement I will refer by the term hybrid intelligence.
+This automation is intended to encompass the whole of mathematics, particularly of course, the theoretical development of mathematics, reaching its most abstract and abstruse parts, though most likely addressing applicable mathematics first. This cannot be achieved without intelligence of a high order, and is therefore beyond the present state-of-the-art for completely automated reasoning. And so, in this project we envisage, as in the field of Interactive Theorem Proving, that less trivial results will be realised (at least in the early stages) by man and machine working together, to which arrangement I will refer by the term _hybrid intelligence_.
 
 Many believe that the pace of change is growing and that in relatively brief timeframes radical advances in artificial intelligence will be secured. Because these projects are conceived of as contributing to a technological domain which is expected to be radically transformed, its future relevance depends upon how well it is aligned, not so much with todays information technology, but with the very different environment into which we will soon be thrust. For this reason I seek, in describing the project, to place it in the context of that future as I see it, and to make a connection between the details of the proposed architecture and the character of that future.
 
@@ -157,7 +157,7 @@ The project is intended to develop open source software for deployment in delive
 The services come in three layers corresponding to the three associated sub-projects which are:
 
 - HoLoTruth  
-  concerned the establishment and management of Higher Order LOgical Truth, providing Proof As A service.
+  concerned the establishment and management of Higher Order LOgical Truth, providing Proof As A Service.
 
 - HoLoMod  
   concerned with empirical and other models in HOL, with Smart Oracles.
