@@ -1,7 +1,7 @@
 
 ### The Problem and The Method
 
-[Preliminary Discussion](Preliminary Discussion)
+[Preliminary Discussion](Preliminary-Discussion)
 
 Wittgenstein's philosophy, and his conception of language, fell into two phases.
 In the first, manifest in his "Tractatus Logico-Philosophicus" his conception of language was derived from the new formal notations devised by Frege and Russell primarily for the purpose of achieving rigour in mathematics.

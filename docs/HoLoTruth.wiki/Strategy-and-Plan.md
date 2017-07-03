@@ -3,7 +3,7 @@
 
 Strategy is as yet embryonic.
 
-There is an [organisational strategy](#The Organisational Strategy) and a [technical strategy](#the technical strategy).
+There is an [organisational strategy](#The-Organisational-Strategy) and a [technical strategy](#the-technical-strategy).
 
 ### The Organisational Strategy
 

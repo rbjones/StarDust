@@ -519,10 +519,10 @@ First, the aims, then the philosophical underpinnings, the principal structural 
 
 The aim of this project is to build software to support an _Intelligent Deductive Cloud_ in which Higher Order Logic (HOL) is a universal semantic and deductive foundation.
 
-- [The Ambition](The Ambition)
-- [The Philosophy](The Philosophy)
+- [The Ambition]
+- [The Philosophy](The-Philosophy)
 - [The Architecture](The-Architecture)
-- [Strategy and Plan](Strategy and Plan)
+- [Strategy and Plan](Strategy-and-Plan)
 
 a note on [hype cycles](hype cycles)
 
@@ -533,10 +533,10 @@ That the ambition embraces General Autonomous Deductive Intelligence demands a p
 
 Is this section a suitable minimalistic philosophical foundation is outlined.
 
-- [Some Philosophical Background](Some Philosophical Background)
-- [The Problem and the Method](The Problem and the Method)
-- [Metaphysics and Ontology](Metaphysics and Ontology)
-- [Language and Logic](Language and Logic)
+- [Some Philosophical Background](Some-Philosophical-Background)
+- [The Problem and the Method](The-Problem-and-the-Method)
+- [Metaphysics and Ontology](Metaphysics-and-Ontology)
+- [Language and Logic](Language-and-Logic)
 - [Deduction and Induction]
 - [Consistency and Trust]
 - [Connecting Models to the World]
@@ -580,7 +580,7 @@ It is the purpose of this project to contribute to the realisation of the requir
 
 ### The Problem and The Method
 
-[Preliminary Discussion](Preliminary Discussion)
+[Preliminary Discussion](Preliminary-Discussion)
 
 Wittgenstein's philosophy, and his conception of language, fell into two phases.
 In the first, manifest in his "Tractatus Logico-Philosophicus" his conception of language was derived from the new formal notations devised by Frege and Russell primarily for the purpose of achieving rigour in mathematics.
@@ -712,14 +712,14 @@ I don't care for it myself, because to call something a fiction is to deny its e
 
 The principal elements of the architecture proposed are as follows:
 
-- [The Logical Kernel](the logical kernel)  
+- [The Logical Kernel](the-logical-kernel)  
 There may be more than one logical kernel available to work in the context of the knowledge hierarchy we envisage, often adaptations of existing systems, but we have in mind one brand new kernel with a number of special features which are intended to support the ambitions we have articulated.
-- [Distributed Knowledge Hierarchy](Distributed Theory Hierarchy) as Knowledge Base  
+- [Distributed Theory Hierarchy](Distributed-Theory-Hierarchy) as Knowledge Base  
 Rather than keeping a theory hierarchy private to each instance of a theorem prover, the DA-Hol architecture provides for a single distributed theory hierarchy and a diversity of proof tools, which undertake or contribute to extensions to that hierarchy.
-- [Distributed Theory Development](Distributed Theory Development)
+- [Distributed Theory Development]
 Not only is the hierarchy of contexts and theories distributed, but the process of deriving new theorems may be distributed across the network with different nodes in then network competing to provide the most effective capabilites in different special domains which may contribute to a single result.
 - [Assurance Levels] In an elaboration of the scheme whereby "oracles" are admitted subject to tagging of results with information about which oracles they depend upon, proof tools have unique identifiers (URIs)  which are combined to give "assurance levels" which tag theorems in a theory, and associated RSA key pairs used to tag and sign theorems
-- [Deductive Intelligence](deductive intelligence) providing Deduction-as-a-Service
+- [Deductive Intelligence] providing Deduction-as-a-Service
 - Agents (and people) train and evolve in an [Proof-Market Incubator]
 
 
@@ -761,7 +761,7 @@ The deductive cloud comes in two principal ways:
     - [Dynamic](#dynamic)
 
 #### Native
-##### [Logical Contexts](Logical Contexts)
+##### [Logical Contexts](Logical-Contexts)
 
 All knowledge representation is to be done in languages obtained by extension of the core abstract HOL language.
 These abstract languages are defined by structures which are called "logical contexts", whose role is to define a HOL signature, and to constrain (define) the names in that signature. 
@@ -864,13 +864,13 @@ Though the possibility of concrete interpretations does provide one avenue for t
 
 We are concerned here exclusively with _propositional_ language and _deductive_ logic.
 
-[Propositional Language](#propositional language)  
-[Deductive Logic](#deductive logic)  
-[Logical Consistency](#logical consistency and completeness)  
-[Interpretation and Proof Theoretic Strength](#interpretation and proof theoretic strength)  
-[Translation and Expressiveness](#translation and expressiveness)  
-[The Universality of HOL](#the universality of HOL)  
-[Practical Considerations](#practical considerations)  
+[Propositional Language](#propositional-language)  
+[Deductive Logic](#deductive-logic)  
+[Logical Consistency and Completeness](#logical-consistency-and-completeness)  
+[Interpretation and Proof Theoretic Strength](#interpretation-and-proof-theoretic-strength)  
+[Translation and Expressiveness](#translation-and-expressiveness)  
+[The Universality of HOL](#the-universality-of-HOL)  
+[Practical Considerations](#practical-considerations)  
 
 #### Propositional Language
 
@@ -919,7 +919,7 @@ These considerations bear upon the claim I have made about "universality of HOL"
 
 Strategy is as yet embryonic.
 
-There is an [organisational strategy](#The Organisational Strategy) and a [technical strategy](#the technical strategy).
+There is an [organisational strategy](#The-Organisational-Strategy) and a [technical strategy](#the-technical-strategy).
 
 ### The Organisational Strategy
 

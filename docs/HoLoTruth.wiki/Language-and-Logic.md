@@ -3,13 +3,13 @@
 
 We are concerned here exclusively with _propositional_ language and _deductive_ logic.
 
-[Propositional Language](#propositional language)  
-[Deductive Logic](#deductive logic)  
-[Logical Consistency](#logical consistency and completeness)  
-[Interpretation and Proof Theoretic Strength](#interpretation and proof theoretic strength)  
-[Translation and Expressiveness](#translation and expressiveness)  
-[The Universality of HOL](#the universality of HOL)  
-[Practical Considerations](#practical considerations)  
+[Propositional Language](#propositional-language)  
+[Deductive Logic](#deductive-logic)  
+[Logical Consistency and Completeness](#logical-consistency-and-completeness)  
+[Interpretation and Proof Theoretic Strength](#interpretation-and-proof-theoretic-strength)  
+[Translation and Expressiveness](#translation-and-expressiveness)  
+[The Universality of HOL](#the-universality-of-HOL)  
+[Practical Considerations](#practical-considerations)  
 
 #### Propositional Language
 

@@ -16,7 +16,7 @@ The deductive cloud comes in two principal ways:
     - [Dynamic](#dynamic)
 
 #### Native
-##### [Logical Contexts](Logical Contexts)
+##### [Logical Contexts](Logical-Contexts)
 
 All knowledge representation is to be done in languages obtained by extension of the core abstract HOL language.
 These abstract languages are defined by structures which are called "logical contexts", whose role is to define a HOL signature, and to constrain (define) the names in that signature. 

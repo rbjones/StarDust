@@ -5,10 +5,10 @@ That the ambition embraces General Autonomous Deductive Intelligence demands a p
 
 Is this section a suitable minimalistic philosophical foundation is outlined.
 
-- [Some Philosophical Background](Some Philosophical Background)
-- [The Problem and the Method](The Problem and the Method)
-- [Metaphysics and Ontology](Metaphysics and Ontology)
-- [Language and Logic](Language and Logic)
+- [Some Philosophical Background](Some-Philosophical-Background)
+- [The Problem and the Method](The-Problem-and-the-Method)
+- [Metaphysics and Ontology](Metaphysics-and-Ontology)
+- [Language and Logic](Language-and-Logic)
 - [Deduction and Induction]
 - [Consistency and Trust]
 - [Connecting Models to the World]
