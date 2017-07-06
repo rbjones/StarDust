@@ -26,11 +26,16 @@ This StarDust repo provides the highest level view, gives a first indication of 
 
 The aim is to contribute to the realisation of [_hybrid deductive intelligence_](1.0.1) and its applications, and ultimately to [_universal fulfilment_](1.1.2).
 
-This automation is intended to encompass the whole of mathematics, particularly of course, the theoretical development of mathematics, reaching its most abstract and abstruse parts, though most likely addressing applicable mathematics first. This cannot be achieved without intelligence of a high order, and is therefore beyond the present state-of-the-art for completely automated reasoning. And so, in this project we envisage, as in the field of Interactive Theorem Proving, that less trivial results will be realised (at least in the early stages) by man and machine working together, to which arrangement I will refer by the term _hybrid intelligence_.
+The whole of mathematics, particularly the theoretical development of mathematics, reaching its most abstract and abstruse parts, though most likely addressing applicable mathematics first, is regarded as a core competence for the level of intelligence sought. Intelligence of a this order is beyond the present state-of-the-art for completely automated reasoning. And so, in this project we envisage, as in the field of Interactive Theorem Proving, that less trivial results will be realised (at least in the early stages) by man and machine working together, to which arrangement I refer by the term _hybrid intelligence_.
+_Hybrid_ intelligence of course, we already have, that's how mathematics is done, the challenge is enable the machines to contribute at higher levels, and to integrate the competence into more general problem solving capabilities.
 
-Many believe that the pace of change is growing and that in relatively brief timeframes radical advances in artificial intelligence will be secured. Because these projects are conceived of as contributing to a technological domain which is expected to be radically transformed, its future relevance depends upon how well it is aligned, not so much with todays information technology, but with the very different environment into which we will soon be thrust. For this reason I seek, in describing the project, to place it in the context of that future as I see it, and to make a connection between the details of the proposed architecture and the character of that future.
+Many believe that the pace of change is growing and that in relatively brief timescales radical advances in artificial intelligence will be secured. Because these projects are conceived of as contributing to a technological domain which is expected to be radically transformed, its future relevance depends upon how well it is aligned, not so much with todays information technology, but with the very different environment into which we will soon be thrust. For this reason I seek, in describing the project, to place it in the context of that future as I see it, and to make a connection between the details of the proposed architecture and the character of that future.
+
+*[Context for StarDust](1.1.3)*
 
 
+context for StarDust
+====================
 ### Hybrid Deductive Intelligence
 
 Think of this as a variant on _Artificial General Intelligence_ in the following ways:
@@ -65,7 +70,7 @@ The main limits in the realisation of universal fulfilment will be incompatibili
 Not everyone will see this goal as sufficient, or even desirable.
 Putting aside for the moment those who doubt its desirability, and addressing those who consider it insufficient, their own desire for more (than universal fulfilment) will form a part of the notion of universal fulfilment (assuming their fulfilment depended upon it), and their greater ambitions will therefore be incorporated into the apparently lesser goal.
 
-Thus, knowing that there will be many who would not feel personally fulfilled as a contributing member of a society with no greater ambition than its own well-being, we also consider as incorporated in this aim the attainment and progression of great questions like "what's it all about? Why are we here?".
+Thus, knowing that there will be many who would not feel personally fulfilled as a contributing member of a society with no greater ambition than its own well-being, we also consider as incorporated in this aim the attainment and progression of great questions like "what's it all about?", "Why are we here?".
 
 
 ## Philosophical Fundamentals

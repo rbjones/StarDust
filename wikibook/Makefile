@@ -13,6 +13,7 @@ MDFILES+= StarDust.wiki/1.md
 MDFILES+= StarDust.wiki/1.1.md
 MDFILES+= StarDust.wiki/1.1.1.md
 MDFILES+= StarDust.wiki/1.1.2.md
+MDFILES+= StarDust.wiki/1.1.3.md
 MDFILES+= StarDust.wiki/1.2.md
 MDFILES+= StarDust.wiki/1.2.1.md
 MDFILES+= StarDust.wiki/1.2.2.md
@@ -53,6 +54,7 @@ default:
 	@echo "=========================="
 	@echo "StarDust.pdf\tmake pdf of wikibook"
 	@echo "locmdfiles\tcopy the wiki files to the docs folder for the website"
+	@echo "all\tStardust.pdf and locmdfiles"
 
 
 StarDust.md:$(MDFILES) Makefile
@@ -77,3 +79,5 @@ locmdfiles: $(MDFILES)
 	cp -r *.wiki ../docs
 	rm ../docs/*.wiki/.git
 	touch locmdfiles
+
+all: StarDust.pdf locmdfiles
