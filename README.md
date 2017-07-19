@@ -26,7 +26,7 @@ How to decide, articulate and effect our morals and preferences, individually an
 
 Descriptive propositions are then further divided along the lines of Hume's other fork:
 
-## HoloTruh
+## HoloTruth
 
 DA-Hol is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
 
