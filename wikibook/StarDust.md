@@ -14,6 +14,8 @@ This general pattern is to present
 
 This StarDust repo provides the highest level view, gives a first indication of the role of the other three sub-projects and how they fit together, and addresses issues which do not naturally fit into any one of those sub-projects.
 
+At its highest level, Stardust is intended to be a substantial enterprise, independently of the three sub-projects, primarily as a philosophical exercise in "Cognitive Architecture".
+
 - [The Aims of StarDust](1.1)
 - [Philosophical Fundamentals](1.2)
 - [The Architecture](1.3)
@@ -564,7 +566,7 @@ So here are [a few notes](What-Carnap's-Philosophy-was-not) mentioning doctrines
 - nominalism, the desire to keep to an absolute minimum the kinds of things which are supposed to exist
 
     Nor was Carnap a nominalist, ontologically he was a free-wheeling pragmatist, quite happy to countenance the greatest extravagances of Cantorian set theory if these proved convenient for science.
-- the verification principle, i.e. the idea that the meaning of a sentence is it method of empirical verification, and that a sentence which lacks this kind of content is meaningless.  
+- the verification principle, i.e. the idea that the meaning of a sentence is its method of empirical verification, and that a sentence which lacks this kind of content is meaningless.  
 
     This certainly was one of Carnap's views, early in his career.
     However, he recognised soon enough that it was not tenable, and gradually watered it down to almost nothing.
@@ -639,7 +641,7 @@ But for a philosophy to provide a stable base for this enterprise it must be sim
 I therefore believe that the kind of minimalistic philosophy belonging to the positivistic tradition is likely to serve best, and will seek to articulate such a system.
 
 I see the philosophy as a prerequisite for good architectural thinking, and the architecture itself as a kind of _constructive philosophy_.
-Taking cognitive capabilities a matter for design, demands a perspective on them very different from that traditional in philosophy.
+Taking cognitive capabilities as a matter for design, demands a perspective on them very different from that traditional in philosophy.
 
 A fundamental issue, and one which has been a matter of controversy throughout the history of artificial intelligence, is the manner in which knowledge is represented.
 This is particularly significant in that the approach to AI which is at present making the greatest impact is sometimes associated with the idea that no "representation" is needed.

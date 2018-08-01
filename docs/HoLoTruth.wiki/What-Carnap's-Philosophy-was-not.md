@@ -7,7 +7,7 @@
 - nominalism, the desire to keep to an absolute minimum the kinds of things which are supposed to exist
 
     Nor was Carnap a nominalist, ontologically he was a free-wheeling pragmatist, quite happy to countenance the greatest extravagances of Cantorian set theory if these proved convenient for science.
-- the verification principle, i.e. the idea that the meaning of a sentence is it method of empirical verification, and that a sentence which lacks this kind of content is meaningless.  
+- the verification principle, i.e. the idea that the meaning of a sentence is its method of empirical verification, and that a sentence which lacks this kind of content is meaningless.  
 
     This certainly was one of Carnap's views, early in his career.
     However, he recognised soon enough that it was not tenable, and gradually watered it down to almost nothing.

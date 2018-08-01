@@ -10,7 +10,7 @@ But for a philosophy to provide a stable base for this enterprise it must be sim
 I therefore believe that the kind of minimalistic philosophy belonging to the positivistic tradition is likely to serve best, and will seek to articulate such a system.
 
 I see the philosophy as a prerequisite for good architectural thinking, and the architecture itself as a kind of _constructive philosophy_.
-Taking cognitive capabilities a matter for design, demands a perspective on them very different from that traditional in philosophy.
+Taking cognitive capabilities as a matter for design, demands a perspective on them very different from that traditional in philosophy.
 
 A fundamental issue, and one which has been a matter of controversy throughout the history of artificial intelligence, is the manner in which knowledge is represented.
 This is particularly significant in that the approach to AI which is at present making the greatest impact is sometimes associated with the idea that no "representation" is needed.
