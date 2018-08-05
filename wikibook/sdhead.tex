@@ -1,0 +1,142 @@
+% $Id: sthead.tex $
+
+\documentclass[10pt,titlepage]{book}
+\usepackage{makeidx}
+\usepackage[unicode]{hyperref}
+\usepackage{graphicx}
+\usepackage{type1cm}
+\usepackage{eso-pic}
+\usepackage{color}
+\hypersetup{pdfauthor={Roger Bishop Jones}}
+\hypersetup{colorlinks=true, urlcolor=black, citecolor=black, filecolor=black, linkcolor=black}
+
+\def\tightlist{}
+
+\tolerance=10000
+%\hyphenation{}
+
+% chose the font (palatino)
+
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\renewcommand{\rmdefault}{ppl}
+\linespread{1.04}
+
+% This is for adding a DRAFT watermark
+\makeatletter
+%\AddToShipoutPicture{%
+%            \setlength{\@tempdimb}{.5\paperwidth}%
+%            \setlength{\@tempdimc}{.5\paperheight}%
+%            \setlength{\unitlength}{1pt}%
+%            \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
+%        \makebox(0,0){\rotatebox{45}{\textcolor[gray]{0.95}%
+%        {\fontsize{3cm}{3cm}\selectfont{DRAFT}}}}%
+%            }%
+%}
+\makeatother
+% The following is to supress headers and footers on blank pages.
+
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+\end{center}
+\vspace{\fill}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+
+%\pagestyle{headings}
+\usepackage[twoside,paperwidth=5in,paperheight=8in,hmargin={0.75in,0.5in},vmargin={0.5in,0.5in},includehead,includefoot]{geometry}
+\usepackage{tocloft}
+\usepackage{tocbibind}
+%\bodytext{BGCOLOR="#eeeeff"}
+\makeindex
+\newcommand{\indexentry}[2]{\item #1 #2}
+\newcommand{\ignore}[1]{}
+
+\fancyhfoffset[EL,RO]{0pt}
+\newcommand{\aref}{}
+\newcommand{\bookname}{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\lhead[\fancyplain{}{\thepage}]         {\fancyplain{}{}}
+\chead[\fancyplain{}{\slshape\leftmark}]                 {\fancyplain{}{\slshape\rightmark}}
+\rhead[\fancyplain{}{}]       {\fancyplain{}{\thepage}}
+\lfoot[\fancyplain{}{\aref}]            {\fancyplain{}{}}
+\cfoot[\fancyplain{}{}]                 {\fancyplain{}{}}
+\rfoot[\fancyplain{}{}]                 {\fancyplain{}{\aref}}
+
+\DeclareTextFontCommand{\rbjdefinedfont}{\fontfamily{cmss}\selectfont}
+\newcommand{\rbjdefine}[1]{\bf\rbjdefinedfont{#1}\index{#1}}
+\newcommand{\rbjdefined}[1]{\rbjdefinedfont{#1}\index{#1}}
+\renewcommand{\headrulewidth}{0pt}
+
+\title{{\Huge \bf StarDust}\\ \  \\ Cosmic Cognitive Architecture}
+\author{Roger Bishop Jones}
+\date{\ }
+
+\begin{document}
+\frontmatter
+
+\begin{titlepage}
+\maketitle
+
+
+\hspace{2in}
+
+\vfill
+
+\begin{centering}
+
+Written and published by Roger Bishop Jones\\
+www.rbjones.com\\
+\vspace{0.2in}
+
+ISBN-13: \\
+ISBN-10: 
+
+\vspace{0.2in}
+
+{\footnotesize
+
+First edition.
+
+\vspace{0.2in}
+
+\tiny{}
+
+\vspace{0.2in}
+
+\copyright\ Roger Bishop Jones;
+
+}%footnotesize
+
+\end{centering}
+
+\thispagestyle{empty}
+
+\end{titlepage}
+% $Id: preface.tex,v 1.8 2015/02/04 06:39:29 rbj Exp $
+
+%\renewcommand{\cfttoctitlefont}{\Large}
+%\renewcommand{\cftlottitlefont}{\Large}
+
+{\parskip=0pt\tableofcontents}
+%\addcontentsline{toc}{section}{Contents}
+%{\parskip=0pt\listoftables}
+%\addcontentsline{toc}{section}{List of Tables}
+
+\newcommand{\listpositionname}{Positions}
+\newlistof[chapter]{position}{pos}{\listpositionname}
+
+\newcommand{\position}[2]{%
+\refstepcounter{position}
+{\paragraph{\textbf{#1 \theposition}} #2}
+%\index{#2}
+\addcontentsline{pos}{position}{\protect\numberline{\theposition} #2}\par}

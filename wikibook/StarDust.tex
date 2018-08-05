@@ -1,239 +1,106 @@
-% $Id: ftdbookht.tex,v 1.3 2015/04/23 09:58:07 rbj Exp $
+% $Id: stardust.tex $
 
-\documentclass[10pt,titlepage]{book}
-\usepackage{makeidx}
-\usepackage[unicode]{hyperref}
-\usepackage{graphicx}
-\usepackage{type1cm}
-\usepackage{eso-pic}
-\usepackage{color}
-\hypersetup{pdfauthor={Roger Bishop Jones}}
-\hypersetup{colorlinks=true, urlcolor=black, citecolor=black, filecolor=black, linkcolor=black}
-
-\def\tightlist{}
-
-\tolerance=10000
-%\hyphenation{}
-
-% chose the font (palatino)
-
-\usepackage[T1]{fontenc}
-\usepackage{textcomp}
-\renewcommand{\rmdefault}{ppl}
-\linespread{1.04}
-
-% This is for adding a DRAFT watermark
-\makeatletter
-%\AddToShipoutPicture{%
-%            \setlength{\@tempdimb}{.5\paperwidth}%
-%            \setlength{\@tempdimc}{.5\paperheight}%
-%            \setlength{\unitlength}{1pt}%
-%            \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
-%        \makebox(0,0){\rotatebox{45}{\textcolor[gray]{0.95}%
-%        {\fontsize{3cm}{3cm}\selectfont{DRAFT}}}}%
-%            }%
-%}
-\makeatother
-% The following is to supress headers and footers on blank pages.
-
-\makeatletter
-\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
-\hbox{}
-\vspace*{\fill}
-\begin{center}
-\end{center}
-\vspace{\fill}
-\thispagestyle{empty}
-\newpage
-\if@twocolumn\hbox{}\newpage\fi\fi\fi}
-\makeatother
-
-\usepackage{fancyhdr}
-\pagestyle{fancyplain}
-
-%\pagestyle{headings}
-\usepackage[twoside,paperwidth=5in,paperheight=8in,hmargin={0.75in,0.5in},vmargin={0.5in,0.5in},includehead,includefoot]{geometry}
-\usepackage{tocloft}
-\usepackage{tocbibind}
-%\bodytext{BGCOLOR="#eeeeff"}
-\makeindex
-\newcommand{\indexentry}[2]{\item #1 #2}
-\newcommand{\ignore}[1]{}
-
-\fancyhfoffset[EL,RO]{0pt}
-\newcommand{\aref}{}
-\newcommand{\bookname}{}
-\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\renewcommand{\sectionmark}[1]{\markright{#1}}
-\lhead[\fancyplain{}{\thepage}]         {\fancyplain{}{}}
-\chead[\fancyplain{}{\slshape\leftmark}]                 {\fancyplain{}{\slshape\rightmark}}
-\rhead[\fancyplain{}{}]       {\fancyplain{}{\thepage}}
-\lfoot[\fancyplain{}{\aref}]            {\fancyplain{}{}}
-\cfoot[\fancyplain{}{}]                 {\fancyplain{}{}}
-\rfoot[\fancyplain{}{}]                 {\fancyplain{}{\aref}}
-
-\DeclareTextFontCommand{\rbjdefinedfont}{\fontfamily{cmss}\selectfont}
-\newcommand{\rbjdefine}[1]{\bf\rbjdefinedfont{#1}\index{#1}}
-\newcommand{\rbjdefined}[1]{\rbjdefinedfont{#1}\index{#1}}
-\renewcommand{\headrulewidth}{0pt}
-
-\title{{\Huge \bf StarDust}\\ \  \\ Cosmic Cognitive Architecture}
-\author{Roger Bishop Jones}
-\date{\ }
-
-\begin{document}
-\frontmatter
-
-\begin{titlepage}
-\maketitle
-
-
-\hspace{2in}
-
-\vfill
-
-\begin{centering}
-
-Written and published by Roger Bishop Jones\\
-www.rbjones.com\\
-\vspace{0.2in}
-
-ISBN-13: \\
-ISBN-10: 
-
-\vspace{0.2in}
-
-{\footnotesize
-
-First edition.
-
-\vspace{0.2in}
-
-\tiny{}
-
-\vspace{0.2in}
-
-\copyright\ Roger Bishop Jones;
-
-}%footnotesize
-
-\end{centering}
-
-\thispagestyle{empty}
-
-\end{titlepage}
-% $Id: preface.tex,v 1.8 2015/02/04 06:39:29 rbj Exp $
-
-%\renewcommand{\cfttoctitlefont}{\Large}
-%\renewcommand{\cftlottitlefont}{\Large}
-
-{\parskip=0pt\tableofcontents}
-%\addcontentsline{toc}{section}{Contents}
-%{\parskip=0pt\listoftables}
-%\addcontentsline{toc}{section}{List of Tables}
-
-\newcommand{\listpositionname}{Positions}
-\newlistof[chapter]{position}{pos}{\listpositionname}
-
-\newcommand{\position}[2]{%
-\refstepcounter{position}
-{\paragraph{\textbf{#1 \theposition}} #2}
-%\index{#2}
-\addcontentsline{pos}{position}{\protect\numberline{\theposition} #2}\par}
-
-%\newcommand{\answer}[1]{%
-%\refstepcounter{answer}
-%\par\noindent\textbf{Answer \theanswer. #1}
-%\addcontentsline{ans}{answer}{\protect\numberline{\theanswer}#1}\par}
-
-%\renewcommand{\cftpostitlefont}{\Large}
+\input{sdhead}
 
 \chapter*{Preface\markboth{Preface}{}}\label{Preface}
 \addcontentsline{toc}{chapter}{Preface}
+
+This book has been constructed from the wikis of a small constellation of github hosted projects which together are intended to articulate an architecture for cosmically distributed cognition.
+
+It consists of four parts, each containing the content of the wiki of one of the four projects.
+The first provides the overarching vision, and is substantially futuristic and philosophical in character.
+The other parts address in greater detail three aspects under which the system can fruitfully be considered, and may through the greater detail be felt more concrete and closer to engineering than philosophy.
+
+The whole is intended to be at once a kind of {\em synthetic philosophy} and {\em architectural design}.
 
 \mainmatter
 
 \part{Cognitive Architecture}\label{cognitive-architecture}
   
 \chapter{The StarDust Constellation}\label{the-stardust-constellation}
-\include{StarDust.wiki/The-StarDust-Constellation}
+\input{StarDust.wiki/The-StarDust-Constellation}
 
 \section{The Aims of StarDust}\label{the-aims-of-stardust}
-\include{StarDust.wiki/The-Aims-of-StarDust}
+\input{StarDust.wiki/The-Aims-of-StarDust}
 
 \subsection{Hybrid Deductive Intelligence}\label{hybrid-deductive-intelligence}
-\include{StarDust.wiki/Hybrid-Deductive-Intelligence}
+\input{StarDust.wiki/Hybrid-Deductive-Intelligence}
 \subsection{Universal Fulfillment}\label{universal-fulfillment}
-\include{StarDust.wiki/Universal-Fulfillment}
+\input{StarDust.wiki/Universal-Fulfillment}
 \section{Philosophical Fundamentals}\label{philosophical-fundamentals}
-\include{StarDust.wiki/Philosophical-Fundamentals}
+\input{StarDust.wiki/Philosophical-Fundamentals}
 \subsection{Language Development and Knowledge Representation}\label{language-development-and-knowledge-representation}
-\include{StarDust.wiki/Language-Development-and-Knowledge-Representation}
+\input{StarDust.wiki/Language-Development-and-Knowledge-Representation}
 \subsection{Three Kinds of Proposition}\label{three-kinds-of-proposition}
-\include{StarDust.wiki/Three-Kinds-of-Proposition}
+\input{StarDust.wiki/Three-Kinds-of-Proposition}
 \section{The Architecture of StarDust}\label{the-architecture-of-stardust}
-\include{StarDust.wiki/The-Architecture-of-StarDust}
-
-\chapter{Previously}\label{previously}
-\subsection{The Cognitive Cosmos}\label{the-cognitive-cosmos}
-\include{StarDust.wiki/The-Cognitive-Cosmos}
-\subsection{The Deductive Paradigm Shift}\label{the-deductive-paradigm-shift}
-\include{StarDust.wiki/The-Deductive-Paradigm-Shift}
-\subsubsection{How Deduction Trumps Computation}\label{how-deduction-trumps-computation}
-\include{StarDust.wiki/How-Deduction-Trumps-Computation}
-\subsection{Formal Mathematics}\label{formal-mathematics}
-\include{StarDust.wiki/Formal-Mathematics}
-\subsubsection{Deductive Cloud}\label{deductive-cloud}
-\include{StarDust.wiki/Deductive-Cloud}
-\subsection{General Deductive Intelligence}\label{general-deductive-intelligence}
-\include{StarDust.wiki/General-Deductive-Intelligence}
-\subsection{Deductive Smart Contracts}\label{deductive-smart-contracts}
-\include{StarDust.wiki/Deductive-Smart-Contracts}
-\subsection{Hype Cycles}\label{hype-cycles}
-\include{StarDust.wiki/Hype-Cycles}
-\section{The Architecture}\label{the-architecture}
-\include{StarDust.wiki/The-Architecture}
+\input{StarDust.wiki/The-Architecture-of-StarDust}
 
 \part{Language, Truth and Proof}\label{language,-truth-and-proof}
 
 \chapter{Language Truth and Logic}\label{language-truth-and-logic}
-\include{HoLoTruth.wiki/Language-Truth-and-Logic}
+\input{HoLoTruth.wiki/Language-Truth-and-Logic}
 \section{The Philosophy}\label{the-philosophy}
-\include{HoLoTruth.wiki/The-Philosophy}
+\input{HoLoTruth.wiki/The-Philosophy}
 \subsection{Some Philosophical Background}\label{some-philosophical-background}
-\include{HoLoTruth.wiki/Some-Philosophical-Background}
+\input{HoLoTruth.wiki/Some-Philosophical-Background}
 \subsection{What Carnap's Philosophy was not}\label{what-carnaps-philosophy-was-not}
-\include{HoLoTruth.wiki/What-Carnap's-Philosophy-was-not}
+\input{HoLoTruth.wiki/What-Carnaps-Philosophy-was-not}
 \subsection{The Problem and The Method}\label{the-problem-and-the-method}
-\include{HoLoTruth.wiki/The-Problem-and-The-Method}
+\input{HoLoTruth.wiki/The-Problem-and-The-Method}
 \subsubsection{Preliminary Discussion}\label{preliminary-discussion}
-\include{HoLoTruth.wiki/Preliminary-Discussion}
+\input{HoLoTruth.wiki/Preliminary-Discussion}
 \subsection{Metaphysics and Ontology}\label{metaphysics-and-ontology}
-\include{HoLoTruth.wiki/Metaphysics-and-Ontology}
+\input{HoLoTruth.wiki/Metaphysics-and-Ontology}
 \section{The Architecture}\label{the-architecture}
-\include{HoLoTruth.wiki/The-Architecture}
+\input{HoLoTruth.wiki/The-Architecture}
 \subsection{The Logical Kernel}\label{the-logical-kernel}
-\include{HoLoTruth.wiki/The-Logical-Kernel}
+\input{HoLoTruth.wiki/The-Logical-Kernel}
 \subsection{Distributed Theory Hierarchy}\label{distributed-theory-hierarchy}
-\include{HoLoTruth.wiki/Distributed-Theory-Hierarchy}
+\input{HoLoTruth.wiki/Distributed-Theory-Hierarchy}
 \subsection{Logical Contexts}\label{logical-contexts}
-\include{HoLoTruth.wiki/Logical-Contexts}
+\input{HoLoTruth.wiki/Logical-Contexts}
 \subsection{HOL for Knowledge Representation}\label{hol-for-knowledge-representation}
-\include{HoLoTruth.wiki/HOL-for-Knowledge-Representation}
+\input{HoLoTruth.wiki/HOL-for-Knowledge-Representation}
 \subsection{Language and Logic}\label{language-and-logic}
-\include{HoLoTruth.wiki/Language-and-Logic}
+\input{HoLoTruth.wiki/Language-and-Logic}
 \section{Strategy-and-Plan}\label{strategy-and-plan}
-\include{HoLoTruth.wiki/Strategy-and-Plan}
+\input{HoLoTruth.wiki/Strategy-and-Plan}
 
 \part{Models and Contracts}\label{models-and-contracts}
 
-\chapter{HoLoMod.wiki/Sense, Model, Plan, Action}\label{}
-\include{HoLoMod.wiki/Sense,-Model,-Plan,-Action}
+\chapter{Sense, Model, Plan, Action}\label{}
+\input{HoLoMod.wiki/Sense,-Model,-Plan,-Action}
 
 \part{Values and Objectives}\label{values-and-objectives}
 
 \chapter{Refining and Effecting Value Systems}\label{refining-and-effecting-value-systems}
-\include{HoLoVal.wiki/Refining-and-Effecting-Value-Systems}
+\input{HoLoVal.wiki/Refining-and-Effecting-Value-Systems}
+
+\part{Attic}
+
+This part is present only in pre-publication drafts of the book, and contains materials which have been removed and will in due course be discarded.
+Such materials are retained in the attic until such time as I am confident that any importsnt topic they adress has been adquately addressed elsewhere.
+
+\chapter{Previously}\label{previously}
+\subsection{The Cognitive Cosmos}\label{the-cognitive-cosmos}
+\input{StarDust.wiki/The-Cognitive-Cosmos}
+\subsection{The Deductive Paradigm Shift}\label{the-deductive-paradigm-shift}
+\input{StarDust.wiki/The-Deductive-Paradigm-Shift}
+\subsubsection{How Deduction Trumps Computation}\label{how-deduction-trumps-computation}
+\input{StarDust.wiki/How-Deduction-Trumps-Computation}
+\subsection{Formal Mathematics}\label{formal-mathematics}
+\input{StarDust.wiki/Formal-Mathematics}
+\subsubsection{Deductive Cloud}\label{deductive-cloud}
+\input{StarDust.wiki/Deductive-Cloud}
+\subsection{General Deductive Intelligence}\label{general-deductive-intelligence}
+\input{StarDust.wiki/General-Deductive-Intelligence}
+\subsection{Deductive Smart Contracts}\label{deductive-smart-contracts}
+\input{StarDust.wiki/Deductive-Smart-Contracts}
+\subsection{Hype Cycles}\label{hype-cycles}
+\input{StarDust.wiki/Hype-Cycles}
+\section{The Architecture}\label{the-architecture}
+\input{StarDust.wiki/The-Architecture}
 
 \backmatter
 
