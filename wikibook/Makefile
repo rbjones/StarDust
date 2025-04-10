@@ -68,7 +68,7 @@ TEXFILES=$(MDFILES:%.md=%.tex)
 $(TEXFILES): %.tex: %.md
 	pandoc -f markdown -i "$*.md" -o "$@"	\
 		--number-sections        	\
-		--latex-engine=xelatex
+		--pdf-engine=xelatex
 
 cleantexs:
 	-rm $(TEXFILES)
@@ -88,7 +88,7 @@ cleantexs:
 #		-H header.tex \
 #		--include-before=includebefore.tex
 
-StarDust.pdf: StarDust.tex texhdfile.tex $(TEXFILES)
+StarDust.pdf: StarDust.tex sdhead.tex $(TEXFILES)
 	xelatex StarDust
 	xelatex StarDust
 	xelatex StarDust
