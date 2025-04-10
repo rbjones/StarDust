@@ -3,10 +3,10 @@
 	url = https://github.com/rbjones/StarDust.wiki
 [submodule "wikibook/HoLoMod.wiki"]
 	path = wikibook/HoLoMod.wiki
-	url = https://github.com/rbjones/HoLoMod/wiki
+	url = https://github.com/rbjones/HoLoMod.wiki
 [submodule "wikibook/HoLoVal.wiki"]
 	path = wikibook/HoLoVal.wiki
-	url = https://github.com/rbjones/HoLoVal/wiki
+	url = https://github.com/rbjones/HoLoVal.wiki
 [submodule "wikibook/HoLoTruth.wiki"]
 	path = wikibook/HoLoTruth.wiki
-	url = https://github.com/rbjones/HoLoTruth/wiki
+	url = https://github.com/rbjones/HoLoTruth.wiki
