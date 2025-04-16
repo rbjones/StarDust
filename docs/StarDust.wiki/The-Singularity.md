@@ -1,6 +1,3 @@
-
-### The Singularity
-
 I probably am not a singularitarian, but I may be not so far removed.
 So its useful in giving a sketch of my own conception of the future into which _StarDust_ is intended to play, to say something about why I am not quite a singularitarian.
 

@@ -1,7 +1,3 @@
-
-### The Cognitive Cosmos
-
-
 - **cosmic hybrid deductive hyper-intelligence**  -  a short explanation of the terms
     * cosmic  
       think of this a single entity growing outwards across a large part of the milky way, approaching 100,000 light years across

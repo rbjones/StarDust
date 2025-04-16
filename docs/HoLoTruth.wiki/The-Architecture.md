@@ -1,6 +1,3 @@
-
-## The Architecture
-
 The principal elements of the architecture proposed are as follows:
 
 - [The Logical Kernel](the-logical-kernel)  

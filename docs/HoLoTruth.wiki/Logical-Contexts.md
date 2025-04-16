@@ -1,6 +1,3 @@
-
-### Logical Contexts
-
 In talking about languages the distinction between meta-language and object-language is important. A meta-language is one in which one talks about some other language, the language about which one speaks is the object language. It may vary from one conversation to the next which language is the meta-language and which the object language, I might use language A to talk about language B at first, and then use language B to talk about language A. The use of abstract HOL as a universal representation means that in any such discussion, both the meta- and the object language will be different (or the same) concrete presentation of sentences for which the underlying representation is abstract HOL, which is therefore both the object- and the meta-language at once. Because of its pluralism in concrete languages and the high levels of automation which it is intended to support, meta-language or meta-notations, and meta-theoretic reasoning will be pervasive.
 
 In order to maximise the re-usability of knowledge, as much of the work as possible will be done in abstract HOL, confining concrete presentations to the dialogue with human beings, and permitting therefore that the same knowledge can be presented in different concrete forms for different purposes or for different people or groups of people.

@@ -1,6 +1,3 @@
-
-### Formal Mathematics
-
 The principal features here are:
 
 * Full support for formal derivation and application of "classical" mathematics, either in the _abstract_ simple type theory (STT) or in Higher Order Set theory (HOST), via STT with a strong axiom of infinity (or an axiomatic Higher Order Set Theory).

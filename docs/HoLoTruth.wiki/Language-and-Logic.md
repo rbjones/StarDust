@@ -1,6 +1,3 @@
-
-### Language and Logic
-
 We are concerned here exclusively with _propositional_ language and _deductive_ logic.
 
 [Propositional Language](#propositional-language)  
@@ -28,7 +25,7 @@ If the logic is sound, then these rules correspond to the meanings of the senten
 This means that whenever the rules permit drawing some conclusion C from a set of premises S, then if all the sentences in S are true, then C will also be true.
 Put another way, in a sound logic the rules only admit inference from S to C if whenever the truth conditions for all the sentences in S are satisfied, then so will be the truth conditions for C, in more jargon, the conjunction of the truth conditions for the sentences in S entails the truth condition for C.
 
-Some kinds of logic are not sound in this way, though there may be controversy about whether these systems really should be accepted as _logic_s.
+Some kinds of logic are not sound in this way, though there may be controversy about whether these systems really should be accepted as _logics_.
 An example is _inductive_ logic.
 
 #### Logical Consistency and Completeness

@@ -21,9 +21,6 @@ At its highest level, Stardust is intended to be a substantial enterprise, indep
 - [The Architecture](1.3)
 - [The Strategy](1.4)
 
- 
-
-
 ## The Aims of StarDust
 
 The aim is to contribute to the realisation of [_hybrid deductive intelligence_](1.0.1) and its applications, and ultimately to [_universal fulfilment_](1.1.2).

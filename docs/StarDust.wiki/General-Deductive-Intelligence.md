@@ -1,6 +1,3 @@
-
-### General Deductive Intelligence
-
 Though the basic machinery envisaged by this project is intended to contribute to the use of formal deduction, in its present state, it is oriented to facilitating and exploiting the advancement towards deductive machine intelligence.
 
 First let me explain how I am using this term 'deductive intelligence'.

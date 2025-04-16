@@ -1,6 +1,3 @@
-
-### Hype Cycles
-
 I like to think, even speculate, about "the big picture" and DA-Hol is one big part of an even bigger story I am painting.
 In this I connect DA-Hol with some ideas which may be thought now near a peak of un-realistic expectation.
 I think here of _Deep Learning_, at present the most celebrated face of machine intelligence, and "the blockchain", enabling technology for cypto-currencies and now touted as central to a complete transformation of financial services, property transactions and business processes more generally.

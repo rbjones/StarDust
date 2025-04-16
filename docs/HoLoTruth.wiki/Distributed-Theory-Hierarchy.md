@@ -1,6 +1,3 @@
-
-### Distributed Theory Hierarchy
-
 In DA-Hol we use [_abstract HOL_ as a "universal" representation for knowledge](HOL for Knowledge Representation).
 
 Here we sketch some of the key aspects of how that works.

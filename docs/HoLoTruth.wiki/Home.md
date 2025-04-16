@@ -1,5 +1,3 @@
-# The HoLoTruth Wiki
-
 This HoloTruth project aims to exploit Higher Order Logic (HOL) as an abstract _lingua franca_ of the kind of _intelligent hybrid cognitive cosmos_ envisaged in the StarDust constellation, of which it is a part.
 HoLoTruth is the centrepiece of the transition from computation to inference proposed in StarDust, and provides the technology for establishing a distributed body of abstract logical truths (here referred to as HoLo-truths, an abbreviation of Higher Order LOgical truth).
 

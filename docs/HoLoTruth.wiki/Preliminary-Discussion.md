@@ -1,6 +1,3 @@
-
-#### Preliminary Discussion
-
 The deductive cloud is a repository for knowledge about logic, mathematics, and about the physical world we inhabit, in suitable form for rigorous deductive reasoning by intelligent artefacts.
 
 To devise an architecture for such a system, to explain that architecture and give grounds for the supposition that the architecture will deliver the desired capabilities, and will be trustworthy, can only be done in the context of a philosophical framework which embraces metaphysics, logic, philosophy of language, epistemology, science and more.

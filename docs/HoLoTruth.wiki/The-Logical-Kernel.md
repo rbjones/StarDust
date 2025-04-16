@@ -1,6 +1,3 @@
-
-### The Logical Kernel
-
 The logical kernel is designed to achieve the following effects:
 
 - abstraction from concrete representations (this results from structuring of the context/theory representation and use of abstract rather than concrete syntax except on end-user interfaces)  

@@ -1,6 +1,3 @@
-
-### The Problem and The Method
-
 [Preliminary Discussion](Preliminary-Discussion)
 
 Wittgenstein's philosophy, and his conception of language, fell into two phases.

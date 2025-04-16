@@ -1,6 +1,3 @@
-
-#### Deductive Cloud
-
 The idea presented here as the _Deductive Cloud_ is analogous to the W3C "Semantic Web" but strictly formal and deductive.
 
 As I understand it, the motivation of the "Semantic Web" is to enable web search which is sensitive to meanings, not confined to seeking syntactic features of web documents.

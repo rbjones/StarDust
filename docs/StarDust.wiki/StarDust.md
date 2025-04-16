@@ -1,5 +1,3 @@
-# StarDust
-
 StarDust is an architecture for cosmic intelligence, structured in three parts which may be thought of as forming an architectural stack.
 The architecture is under development in a set of four github repositories (one for the whole, and one for each of the principal parts).
 Its high level description is provided in wikis associated with those repos.

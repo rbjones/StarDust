@@ -1,6 +1,3 @@
-
-## The Architecture
-
 The proposed cognitive cosmos may be thought of as formed in three layers.
 
 Beneath this top level the enterprise is structured into three layers, which correspond to different kinds of knowledge, with correspondingly different ways of establishing and exploiting knowledge.

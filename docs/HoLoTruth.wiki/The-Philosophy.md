@@ -1,6 +1,3 @@
-
-## The Philosophy
-
 That the ambition embraces General Autonomous Deductive Intelligence demands a philosophical underpinning for an appropriate knowledge architecture capable of the desired level of diversity while maintaining consistency and rigour even while employing the most advanced methods from Artificial Intelligence and Deep Learning.
 
 Is this section a suitable minimalistic philosophical foundation is outlined.

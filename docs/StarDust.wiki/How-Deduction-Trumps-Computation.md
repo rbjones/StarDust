@@ -1,6 +1,3 @@
-
-#### How Deduction Trumps Computation
-
 Before considering the question whether logical deduction could be placed centre stage in an all encompassing "Intelligent Deductive Web" you may want to know why anyone would want to do that.
 Surely this idea smacks of GOFAI (Good Old Fashioned AI) and is put forward at a time when AI as Deep Learning in Neural Nets is rapidly taking over the world.
 

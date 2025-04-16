@@ -1,6 +1,3 @@
-
-### Metaphysics and Ontology
-
 In this minimalistic philosophy one might expect the philosophical high ground of metaphysics to be poorly represented, particularly since we are following in the footstep's of Carnap who dismissed metaphysics as meaningless.
 In fact, Carnap was pragmatic about metaphysics, but did not use the term "metaphysics" for those abstract theories which play an essential role in the formulation of scientific hypotheses or models (such as the definition of spatio-temporal concepts as needed for the articulation of the theory of relativity, or the exotic ontology of cantorian set theory as a practical way of underpinning the mathematical theories of real and complex analysis required for large parts of science and engineering).
 

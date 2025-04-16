@@ -1,6 +1,3 @@
-
-### Deductive Smart Contracts
-
 When considering the potential for some new technology it is common to ask "What is the killer application?".
 
 I have thought about the long term prospects for proof technology for many years, and for most of that time I have considered that the "killer app" was design automation.

@@ -1,6 +1,3 @@
-
-### The Deductive Paradigm Shift
-
 To engage with it you must first of all contemplate the possibility of a major paradigm shift in information processing, from _computation_ to _inference_, taking place on a global scale.
 In the context of that _possibility_, the aim of this project is to position _Higher Order Logic_ (HOL), and more specifically that particular formulation of HOL which has its roots in Russell and Church and was formulated by Mike Gordon, as a universal foundation enabling this paradigm shift. What it means to call HOL a "universal foundation", and the grounds for supposing it so, are not our present concern, but will be addressed later in the _philosophical_ underpinnings of the proposal.
 

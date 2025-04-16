@@ -1,6 +1,3 @@
-
-### HOL for Knowledge Representation
-
 Here we expand upon that idea. Some prior discussion appears in The Philosophy, here we therefore steer clear of the deeper issues and focus on slightly more practical matters.
 
 The architecture is intended to provide a context for superhuman deductive capabilities. In normal human discourse, in all but the rarified strata of research in pure mathematics, chains of deductive reasoning are short, and are checked by common sense evaluation of their results. Nevertheless in those domains outside of mathematics, such as philosophy, where complex reasoning may be employed, the results are inconclusive, partly because of ambiguities in the context which render different lines of reasoning equally plausible despite their incompatible conclusions.

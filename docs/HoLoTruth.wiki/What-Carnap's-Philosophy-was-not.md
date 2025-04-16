@@ -1,6 +1,3 @@
-
-#### What Carnap's Philosophy Was Not
-
 - phenomenalism, i.e. the idea that only phenomena are real, that there are only sense data  
 
     Carnap never was a phenomenalist, not even while he was writing his _Aufbau_ (an attempt to establish a phenomenalistic account of the world).
