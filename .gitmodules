@@ -13,6 +13,3 @@
 [submodule "wikibook/SynEpis.wiki"]
 	path = wikibook/SynEpis.wiki
 	url = https://github.com/rbjones/SynEpis.wiki
-[submodule "wikibook/SynEpis"]
-	path = wikibook/SynEpis
-	url = https://github.com/rbjones/SynEpis
