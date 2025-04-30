@@ -18,7 +18,7 @@ The role of this is to plot the thinking as far into the future, and as far out 
 There are then three repos into which main substance of the work is divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
 The first (or is it the second?) fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
 
-## [HoLoVal] (https://rbjones.github.io/HoLoVal) [repo](https://github.com/rbjones/HoLoVal)
+## [HoLoVal](https://rbjones.github.io/HoLoVal) [repo](https://github.com/rbjones/HoLoVal)
 
 HoLoVal covers the evaluative propositions, and generally the kind of thing which Aristotle would have classified as _practical science_.
 Ethics, Politics, Economics.
@@ -32,7 +32,7 @@ DA-Hol is concerned with what Hume referred to as "relations between ideas", but
 
 The second prong of this fork is:
 
-## [HoLoMod] (https://rbjones.github.io/HoLoMod) [repo](https://github.com/rbjones/HoLoTruth)
+## [HoLoMod](https://rbjones.github.io/HoLoMod) [repo](https://github.com/rbjones/HoLoTruth)
 
 which concerns Hume's "matter of fact", not so clear a notion, by which we understand objective empirical truths.
 The interpretation of this domain of contingent rather than necessary truth which is progressed in this sub-project reflects, in ways which Hume did not anticipate, Hume's skepticism about what can properly be inferred from the sensory evidence upon which they are based.
