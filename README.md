@@ -1,20 +1,23 @@
 [![Join the chat at https://gitter.im/gitterHQ/gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Star_Dust/Lobby)
 
-This repository is one of a group which I have created in a bid for cosmic mindspace, and provides top cover for this enterprise, addressing the biggest issues in the complete opus and defining the place and scope of the other subprojects.
+# StarDust [repo](https://github.com/rbjones/StarDust)
 
-Here is the structure which I envisage, broken down by repository, all to be hosted on GitHub, and mostly to be just a wiki, without even a definite idea about software, for a good while.
-I consider painting this big picture, with sketches in each of the constituent repositories, as an important preliminary to development work, though I don't exclude some prototyping while it is in progress.
-And I expect it all to take a good while.
+This repository is one of a group which I have created in a bid for cosmic mindspace, and provides a name for the whole, a brief overview and a place for anything which does not properly belong in any of the subsidiary projects.
+Here belong the most extravagent ambitions to which the not exactly conservative components contribute.
 
-I now have in mind a set of five parts, and I'm going to sketch them all here:
+We may begin by thinking of this as a STEM fantasy, but though fantastic, my commitment to progressing its realisation is pretty solid (if not my ability to do it alone).
+The main danger to its completion is that someone else will get there before me, and I will have to rethink my objectives in the context that such success would create.
+Not that there is any definite endpoint to the progression entailed, such success would only interfere with the early stages and leave a continuation replete with continuing challenges.
 
-## StarDust [repo](https://github.com/rbjones/StarDust)
-
-The top repo is to be called "StarDust", which has a nice cosmic feel to it.
-The role of this is to plot the thinking as far into the future, and as far out into the cosmos, as I feel I have something to say (which is a long way), and to say how the other four pieces/projects/repos contribute to this and fit together.
+The StartDust repo seeks to articulate the highest level conception of the aims and methods of the project.
+This gives way to more fundamental philosophical and architectural thinking for which the SynEpis repository is the place, so called because my conception of the depest philosophical foundations for this project is epistemological, and the kind of epistemology involved is more akin to the earliest and most abstract stages in the design of cognitive systems than it is to the more traditional philosophical approach to philosophy which regards knowledge as a given which it is the business of philosophy to enquire into and cast light upon.
+That conception of epistemology I call _synthetic_ epistemology, and it stretches into the earliest aspects of architectural design of the knowledge repositories and cognitive systems which the project aims to construct.
 
 There are then three repos into which main substance of the work is divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
-The first (or is it the second?) fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
+One such fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
+The other is the distinction among descriptive propositions between those expressing `_relations between ideas_' and matters of fact, which distinguishes logical from empirical truths.
+Having divide just one component of the first fork once more, we have declarative language broken in to three parts which differ in both the kinds of substance which they express, and the ways in which such their truth might be established.
+This leads to three furthersubprojects, the first concerned with logical truths, the second with empirical truths and the last with values, priorities, purposes and ambitions.
 
 ## [SynEpis](https://rbjones.github.io/SynEpis) [repo](https://github.com/rbjones/SynEpis) 
 
@@ -22,7 +25,7 @@ Synthetic Epistemology, primarily concerned with the representation of knowledge
 
 ## [HoloTruth](https://rbjones.github.io/HoLoTruth) [repo](https://github.com/rbjones/HoLoTruth) 
 
-DA-Hol is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
+HoloTruth is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
 
 The second prong of this fork is:
 
@@ -37,10 +40,3 @@ In this part of the project we consider how mathematical models of the physical 
 HoLoVal covers the evaluative propositions, and generally the kind of thing which Aristotle would have classified as _practical science_.
 Ethics, Politics, Economics.
 How to decide, articulate and effect our morals and preferences, individually and collectively.
-
-Descriptive propositions are then further divided along the lines of Hume's other fork:
-
-
-
-This is also a place where the use of HOL for smart contracts might be explored.
-
