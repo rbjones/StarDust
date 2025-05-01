@@ -7,7 +7,8 @@ Here belong the most extravagent ambitions to which the not exactly conservative
 
 We may begin by thinking of this as a STEM fantasy, but though fantastic, my commitment to progressing its realisation is pretty solid (if not my ability to do it alone).
 The main danger to its completion is that someone else will get there before me, and I will have to rethink my objectives in the context that such success would create.
-Not that there is any definite endpoint to the progression entailed, such success would only interfere with the early stages and leave a continuation replete with continuing challenges.
+Not that there is any definite endpoint to the progression entailed.
+Such success would only interfere with the early stages and leave a continuation replete with continuing challenges.
 
 The StartDust repo seeks to articulate the highest level conception of the aims and methods of the project.
 This gives way to more fundamental philosophical and architectural thinking for which the SynEpis repository is the place, so called because my conception of the depest philosophical foundations for this project is epistemological, and the kind of epistemology involved is more akin to the earliest and most abstract stages in the design of cognitive systems than it is to the more traditional philosophical approach to philosophy which regards knowledge as a given which it is the business of philosophy to enquire into and cast light upon.
@@ -15,13 +16,17 @@ That conception of epistemology I call _synthetic_ epistemology, and it stretche
 
 There are then three repos into which main substance of the work is divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
 One such fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
-The other is the distinction among descriptive propositions between those expressing `_relations between ideas_' and matters of fact, which distinguishes logical from empirical truths.
+The other is the distinction among descriptive propositions between those expressing `_relations between ideas_' and `_matters of fact_', which distinguishes logical from empirical truths.
 Having divide just one component of the first fork once more, we have declarative language broken in to three parts which differ in both the kinds of substance which they express, and the ways in which such their truth might be established.
-This leads to three furthersubprojects, the first concerned with logical truths, the second with empirical truths and the last with values, priorities, purposes and ambitions.
+This leads to three further subprojects, the first concerned with logical truths, the second with empirical truths and the last with values, priorities, purposes and ambitions.
+Each of those subprojects is focussed on a potential _singularity_ broadly in the sense of science fiction authors such as Verner Vinge, insofar as it is intended that each introduces a new kind of self comprehension and re-invention to advance their primary capability.
+It is intended that these aspects of their capability be a focal point upon which the development will lean to secure most rapid advancement in all the capabilities envisaged.
+
+In the following very brief intros, I try to identify those aspects which potentially engender singularity, on which futher speculative detail may be found in the project descriptions to which links are provided.
 
 ## [SynEpis](https://rbjones.github.io/SynEpis) [repo](https://github.com/rbjones/SynEpis) 
 
-Synthetic Epistemology, primarily concerned with the representation of knowledge, and with the case for the adoption of a single underluing abstract logical system for that purpose.
+Synthetic Epistemology, primarily concerned with the representation of knowledge, and with the case for the adoption of a single underlying abstract logical system for that purpose.
 
 ## [HoloTruth](https://rbjones.github.io/HoLoTruth) [repo](https://github.com/rbjones/HoLoTruth) 
 
