@@ -21,16 +21,28 @@ Having divide just one component of the first fork once more, we have declarativ
 This leads to three further subprojects, the first concerned with logical truths, the second with empirical truths and the last with values, priorities, purposes and ambitions.
 Each of those subprojects is focussed on a potential _singularity_ broadly in the sense of science fiction authors such as Verner Vinge, insofar as it is intended that each introduces a new kind of self comprehension and re-invention to advance their primary capability.
 It is intended that these aspects of their capability be a focal point upon which the development will lean to secure most rapid advancement in all the capabilities envisaged.
+These points of potential singularity are also difficult bootstrap problems, the classic conception of singularity in artificial intelligence is predicated on the achievement of intelligence, without which one presumes that the systems in question will not be capable of designing intelligent artifacts.
+Making these bootstrap problems as simple as possible is a tactic which will be adopted to facilitate the progression of these potential singularities.
+Another strategic imperative is to adopt methods analogous to those of Google Deepmind's Alpha-zero and derivatives, which enable intelligence to be achieved in appropriate domains (perfect information) without the need of large amounts of data.
 
 In the following very brief intros, I try to identify those aspects which potentially engender singularity, on which futher speculative detail may be found in the project descriptions to which links are provided.
 
 ## [SynEpis](https://rbjones.github.io/SynEpis) [repo](https://github.com/rbjones/SynEpis) 
 
 Synthetic Epistemology, primarily concerned with the representation of knowledge, and with the case for the adoption of a single underlying abstract logical system for that purpose.
+This addresses the structure of declarative sentences, the organisation of those sentences into the contexts in which such sentences have meaning, and the means whereby the truth of such sentences may be established.
+These considerations are influenced in their character by the requirements of the subprojects which depend upon such capabilities, thus the architecture of a knowledge repository must accomodate the ambition that there it support a cosmically distributed repository independent of concrete representation and capable of merging with repositories developed by distributed intelligent systems originating from remote parts of the cosmos.
+
+The realisation of these capabilities begins with HoLoTruth.
 
 ## [HoloTruth](https://rbjones.github.io/HoLoTruth) [repo](https://github.com/rbjones/HoLoTruth) 
 
 HoloTruth is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
+
+The starting point for the conception of this technology is the LCF paradigm in which the inferences rules of the logical system are coded as algorithms which from theorems which are the premises of an inference compute the conclusions of the relevant inference rule.
+However, this conception is broadened into a conception of `proof by correct computation' paradigm, in which any metatheoretic algorith which can be proven to be logically sound (i.e. deriving only provable theorems when given similar inputs) can be executed directly to contribute to a proof.
+This perception gives rise to a potential singularity insofar as the system becomes capable of re-programming itself into more efficient ways of deriving theorems (which
+
 
 The second prong of this fork is:
 
