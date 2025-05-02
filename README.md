@@ -1,6 +1,6 @@
 [![Join the chat at https://gitter.im/gitterHQ/gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Star_Dust/Lobby)
 
-# StarDust [repo](https://github.com/rbjones/StarDust)
+#StarDust# [repo](https://github.com/rbjones/StarDust)
 
 This repository is one of a group which I have created in a bid for cosmic mindspace, and provides a name for the whole, a brief overview and a place for anything which does not properly belong in any of the subsidiary projects.
 Here belong the most extravagent ambitions to which the not exactly conservative components contribute.
@@ -27,7 +27,7 @@ Another strategic imperative is to adopt methods analogous to those of Google De
 
 In the following very brief intros, I try to identify those aspects which potentially engender singularity, on which futher speculative detail may be found in the project descriptions to which links are provided.
 
-## [SynEpis](https://rbjones.github.io/SynEpis) [repo](https://github.com/rbjones/SynEpis) 
+##[SynEpis](https://rbjones.github.io/SynEpis)## [repo](https://github.com/rbjones/SynEpis) 
 
 Synthetic Epistemology, primarily concerned with the representation of knowledge, and with the case for the adoption of a single underlying abstract logical system for that purpose.
 This addresses the structure of declarative sentences, the organisation of those sentences into the contexts in which such sentences have meaning, and the means whereby the truth of such sentences may be established.
@@ -35,7 +35,7 @@ These considerations are influenced in their character by the requirements of th
 
 The realisation of these capabilities begins with HoLoTruth.
 
-## [HoloTruth](https://rbjones.github.io/HoLoTruth) [repo](https://github.com/rbjones/HoLoTruth) 
+##[HoloTruth](https://rbjones.github.io/HoLoTruth)## [repo](https://github.com/rbjones/HoLoTruth) 
 
 HoloTruth is concerned with what Hume referred to as "relations between ideas", but which I will more often describe as _a priori_, (broadly)_logical_, or _analytic_ propositions, i.e. the kinds of truth which can be demonstrated to very high levels of confidence in formal deductive systems such as HOL.
 
@@ -46,13 +46,13 @@ This perception gives rise to a potential singularity insofar as the system beco
 
 The second prong of this fork is:
 
-## [HoLoMod](https://rbjones.github.io/HoLoMod) [repo](https://github.com/rbjones/HoLoTruth)
+##[HoLoMod](https://rbjones.github.io/HoLoMod)## [repo](https://github.com/rbjones/HoLoTruth)
 
 which concerns Hume's "matter of fact", not so clear a notion, by which we understand objective empirical truths.
 The interpretation of this domain of contingent rather than necessary truth which is progressed in this sub-project reflects, in ways which Hume did not anticipate, Hume's skepticism about what can properly be inferred from the sensory evidence upon which they are based.
 In this part of the project we consider how mathematical models of the physical world can be constructed using the infrastructure provided by **DA-Hol**, how these are related to the sense data, coming in the future primarily from IOT online sensors, and how reasoning using these models about how to achieve the aims articulated or derived from **DA-Value** leads through activators, which may be IOT devices, to the implementation of desired transformations in the material universe.
 
-## [HoLoVal](https://rbjones.github.io/HoLoVal) [repo](https://github.com/rbjones/HoLoVal)
+##[HoLoVal](https://rbjones.github.io/HoLoVal)## [repo](https://github.com/rbjones/HoLoVal)
 
 HoLoVal covers the evaluative propositions, and generally the kind of thing which Aristotle would have classified as _practical science_.
 Ethics, Politics, Economics.
