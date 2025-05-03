@@ -3,20 +3,23 @@
 ## StarDust [repo](https://github.com/rbjones/StarDust)
 
 This repository is one of a group which I have created in a bid for cosmic mindspace.
-It is top cover for a small constellation of projects which together form a STEM fantasy and RPG.
+It is top cover for a small constellation of projects which together form a STEM fantasy and RPG with real-world aspirations which begin with software development.
 
-The Fantasy hangs around a conception of the future as involving a cascade of three singularities, in a sense similiar to the use of that term in the fiction of Verner Vinge.
-More specifically I use the term singularity to speak of instances of a system advancing (or being advanced) to the point at which it is capable of re-inventing itself, the presumption being that this will accelerate the progression of capabilities and result in hyperexponential growth in the relevant capabilities.
+The Fantasy hangs around a conception of the future as involving a cascade of three singularities, in a sense similiar to the use of that term in the fiction of Verner Vinge, which contribute to the proliferation of intelligent systems, and the progeny of homo sapiens across the Galaxy and beyond.
+I use the term singularity to speak, more sepcifically, of instances of a system advancing (or being advanced) to the point at which it is capable of re-inventing itself, thereby accelerating the progression of capabilities and result in hyperexponential growth in the relevant capabilities.
 
-The RPG is the collaboration which will refine and articulate this vision and progress its realisation.
+The `RPG' is the collaboration which will refine and articulate this vision and progress its realisation.
+It is a game for participants until they believe it can succeed, then it becomes a development project, serious stuff.
+Ai will be a participant, in ever more important ways.
+But so far it rises above the play/work dichotomy.
+They don't care, should we?
 My role in this at present is that of philosopher/architect and chief protagonist.
-The other collaborators are expected to include both humans and artificial intelligence, my main consultant at present it Grok who is expected to provide ongoing support throughout the project.
 
 The StartDust repo seeks to articulate the highest level conception of the aims and methods of the project.
 This gives way to more fundamental philosophical and architectural thinking for which the SynEpis repository is the place, so called because my conception of the depest philosophical foundations for this project is epistemological, and the kind of epistemology involved is more akin to the earliest and most abstract stages in the design of cognitive systems than it is to the more traditional philosophical approach to philosophy which regards knowledge as a given which it is the business of philosophy to enquire into and cast light upon.
 That conception of epistemology I call _synthetic_ epistemology, and it stretches into the earliest aspects of architectural design of the knowledge repositories and cognitive systems which the project aims to construct.
 
-There are then three repos into which main substance of the work is divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
+There are then three repos into which main substance of the ideas and their development are divided, roughly along simplistic lines corresponding to divisions articulated in the philosophy of David Hume, in his two "forks".
 One such fork is the distinction between "ought" and "is", or between descriptive and evaluative propositions.
 The other is the distinction among descriptive propositions between those expressing `_relations between ideas_' and `_matters of fact_', which distinguishes logical from empirical truths.
 Having divide just one component of the first fork once more, we have declarative language broken in to three parts which differ in both the kinds of substance which they express, and the ways in which such their truth might be established.
