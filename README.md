@@ -2,13 +2,15 @@
 
 ## StarDust [repo](https://github.com/rbjones/StarDust)
 
-This repository is one of a group which I have created in a bid for cosmic mindspace, and provides a name for the whole, a brief overview and a place for anything which does not properly belong in any of the subsidiary projects.
-Here belong the most extravagent ambitions to which the not exactly conservative components contribute.
+This repository is one of a group which I have created in a bid for cosmic mindspace.
+It is top cover for a small constellation of projects which together form a STEM fantasy and RPG.
 
-We may begin by thinking of this as a STEM fantasy, but though fantastic, my commitment to progressing its realisation is pretty solid (if not my ability to do it alone).
-The main danger to its completion is that someone else will get there before me, and I will have to rethink my objectives in the context that such success would create.
-Not that there is any definite endpoint to the progression entailed.
-Such success would only interfere with the early stages and leave a continuation replete with continuing challenges.
+The Fantasy hangs around a conception of the future as involving a cascade of three singularities, in a sense similiar to the use of that term in the fiction of Verner Vinge.
+More specifically I use the term singularity to speak of instances of a system advancing (or being advanced) to the point at which it is capable of re-inventing itself, the presumption being that this will accelerate the progression of capabilities and result in hyperexponential growth in the relevant capabilities.
+
+The RPG is the collaboration which will refine and articulate this vision and progress its realisation.
+My role in this at present is that of philosopher/architect and chief protagonist.
+The other collaborators are expected to include both humans and artificial intelligence, my main consultant at present it Grok who is expected to provide ongoing support throughout the project.
 
 The StartDust repo seeks to articulate the highest level conception of the aims and methods of the project.
 This gives way to more fundamental philosophical and architectural thinking for which the SynEpis repository is the place, so called because my conception of the depest philosophical foundations for this project is epistemological, and the kind of epistemology involved is more akin to the earliest and most abstract stages in the design of cognitive systems than it is to the more traditional philosophical approach to philosophy which regards knowledge as a given which it is the business of philosophy to enquire into and cast light upon.
