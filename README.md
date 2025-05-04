@@ -5,7 +5,14 @@
 This repository is one of a group which I have created in a bid for cosmic mindspace.
 It is top cover for a small constellation of projects which together form a STEM fantasy and RPG with real-world aspirations which begin with software development.
 
-The Fantasy hangs around a conception of the future as involving a cascade of three singularities, in a sense similiar to the use of that term in the fiction of Verner Vinge, which contribute to the proliferation of intelligent systems, and the progeny of homo sapiens across the Galaxy and beyond.
+The fantasy hangs around the idea that declarative knowledge is a crucial resource for humanity and our progeny.
+The effective collection, management, sharing and exploitation will be increasingly important in our future trajectory before and after we transition into an interstellar civilisation.
+An essential resource in that endeavour will be a shared, distributed, coherent repository of declarative knowledge with an underlying abstract unity exposed in key APIs and protocols, despite pluralistic diversity of stored form and concrete representations.
+
+The StarDust constellation supports the progressive development and exploitation of such a repository in the main phases corresponding to the fundamental Humean division of declarative knowledge into three disjoint categories, pure logic, worldly empirical knowledge, and the value infused matters of morals, priorities, preferences and ambitions.
+In each of these three categories the sub-projects seeks advance through methods built on logic and accelerated by the identification of _singularities_ and the combination of broad generally applicable methods with particular pressure on realising key singularities, each subproject focussing on a singularity appropriate to its domain.
+
+The future is therefore conceived as involving a cascade of three singularities, in a sense similiar to the use of that term in the fiction of Verner Vinge, which contribute to the proliferation of intelligent systems, and the progeny of homo sapiens across the Galaxy and beyond.
 I use the term singularity to speak, more sepcifically, of instances of a system advancing (or being advanced) to the point at which it is capable of re-inventing itself, thereby accelerating the progression of capabilities and result in hyperexponential growth in the relevant capabilities.
 
 The `RPG' is the collaboration which will refine and articulate this vision and progress its realisation.
