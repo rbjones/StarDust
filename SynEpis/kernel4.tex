@@ -1,0 +1,122 @@
+This philosophical kernal is devoted to a conception of \emph{logical truth}.
+First to its definition, and then to the idea that there could be a practically universal foundation for that notion of logical truth.
+
+By `foundation' in this context I mean, a logical system to which all logical truth is reducible, both in terms of semantics and proof theory, i.e. in defining precise truth conditions for sentences and hence which propositions are true and in determining conclusively which propositions satisfy the definition.
+
+Such a foundation for logical truth also provides, I shall argue later, a foundation for all other declarative language, by providing precise abstract semantics for such languages as a starting point for more concrete meanings.
+An abstract semantics, determines the logical truths expressible in the language, the relationship of entailment between collections of sentences of the language, and hence the principles of sound deduction in the language.
+From such an abstract semantics, a concrete meaning may be advanced by describing the intended correspondence between concrete entities and abstractions which represent them in the abstract semantics.
+
+This chapter is concerned with the philosophical aspects of these matters, covering methodological considerations and yielding definitions of core concepts such as \rbjuse{logical truth}, and of the idea of a practically universal foundation for abstract semantics and logical truth.
+
+In subsequent chapters there will be more definite descriptions of a preferred practically universal system, and discussions of how empirical knowledge and all other kinds of knowledge in which meanings are sufficiently definite to support deductive reasoning can be built upon the proposed logical foundation.
+
+While talking of `universal' foundations and of the precision of semantics and certainty of proof, I will often qualify claims with `practically', and even where this qualification is elided, it should be understood that absolute claims are not intended.
+There is no intent to deny the well established technical results which limit semantic definitions and formal deductive systems.
+One of the principal means for achieving practical universality is by talking of families of languages of increasing expressiveness indexed by cardinality of standard interpretations.
+To talk about universality it is necessary moreover to give a definite description of the class of systems among which universality is claimed, and of the kind of reduction which is admitted to putatively universal members of the class.
+
+Such definitions inevitably invove specific choices of language, and in that way may fail to yield convincingly absolute universals.
+It is intended that the specific presentations in relation to which universality is claimed are primarily constraints on the presentation of the systems rather than eliminating important systems which might otherwise serve as counterexamples to the hypothesis of universality.
+
+The monograph is philosophical, and most of the metatheoretic claims made, even though they address formal systems which are intended for exact proofs, are hypotheses rather than established results, and despite my efforts to make these hypothesis exact, they may be inherently philosophical rather than technical in character.
+
+
+\section{Methodological Prelimaries}
+
+Perhaps the best known example of this genre is found in Descartes' \emph{Meditations on First Philosophy} \cite{descartes2013meditations}, and so I should mention some of most important ways in which my methods differ from those of Descartes.
+
+Descartes' method begins with systematic doubt encompassing everything which can be doubted, finding at first only one thing beyond doubt, his \emph{cogito} the inference from doubting to existence.
+Building on this slender base he constructs his entire philosophy, ultimately claiming that the results of his inferences from clear and distinct ideas are indubitable.
+Unfortunately, the construction of the philosophy on that slender base may seem to the modern eye quite credulous, casting doubt on the sincerity of his radical scepticism.
+
+The methods adopted here are different.
+
+There are several different aspects of the philosophy which are foundational, and they do not all work in the same way, but there are some common features.
+
+Firstly, I do not pretend that in any aspect of this philosophy I doubt all that can be doubted and begin with an alsmost blank slate.
+I recognise that this synthesis is the product of 4 billion years of evolution on earth of which the final blip is the contributions of the many great thinkers who have contributed to the advancement of our culture.
+
+Thr foundational ideas proposed are not arrived at by systematic doubt, but after consideration of many aspects of the evolution of life on Earth, the cutural evolution enabled by language, and the advances to the present day in science, mathematics and logic giving us the means to precision of language and certaintly of truth in core domains, finally subject to the demands of formal verification using digital information technology.
+So, no blank slate.
+
+Beyond the philosophical perspective specific technical proposals are made for the representation of knowledge.
+The foundational role of this philospphical kernel is to provide a context in which the rationale for and the key propoerties of this technical proposal can be understood.
+The formal logical foundation systems which are discussed are themselves built from a logical kernel, which is a formal language with defined syntax and semantics.
+
+The terminology used in describing this kernel will fall into three 
+groups.
+Firstly there are many concepts which are used in ways within their existing accepted usage, in some cases with broader application.
+Where a special or more precise meaning than is already understood   is intended, an informal definition will be given, of an existing term which will be used in a special way, or of some neologism.
+Such terms will shown in a \rbjdeff{special font} at the point of definition, and each point of use will hyperlink (in blue) to that definition (in electronic versions, otherwise it may be found via the index of defined terms).
+
+\section{Logical Foundations}
+
+Let me first mention that I am a \emph{realist} (in a limited sense).
+There is a material universe, of which I am a very small part, and this monograph is written in the hope that it may be read by other real people and might contribute to the advancement of human affairs.
+Knowledge, in general, serves primarily to aid our survival, propserity and proliferation in the material world which we inhabit, even when pursued for its own sake.
+
+Our understanding of that `real'\endnote{The quotes here reflect my doubts about whether this qualification is appropriate, since ordinary talk about the world suffices to refer to that reality without the explicit ascription.}%
+world comes in many forms, and is manifest in many ways, but is always incomplete and imperfect, since our knowledge is mediated by senses of limited acuity, and represented in finite media which may not be capable of capturing the infinite variety and subtlety of reality.
+These ways of acquiring, representing and applying knowledge are conspicuosly evolving, and in the process becoming more precise, in their content and more effective in their application (at least insofar as best practice is concerned; muddle, obfuscation and misrepresentation multiply at the same time!).
+
+Sometimes we find that novel ways of representing knowledge encompass and surpass many, perhaps all, previous forms.
+This has happened quite recently through the invention of digital information processing, and the relentless and rapid progress of the technology to support this kind of information storage, processing and communications, with the effect that quite rapidly all previous repositories of knowledge are being digitised, and much greater volumes of data are collected and stored than ever could have been imagined.
+
+There is a legitimate question as to how much of this data constitues knowledge, particularly given that a good account of its meaning may be hard to find.
+However, this is not a novel phenomenon, knowledge has not usually come accompanied by an explicit account of the semantics of the language in which it is recorded.
+It suffices for it to be a good representation, that it does indeed carry information about a discernible subject matter.
+
+\section{Metaphysics}
+
+There may be absolute truths about what exists.
+But, the representation of knowledge as provided for in this synthesis does not depend upon them.
+
+This position is easier to understand in relation to purely abstract entities, i.e. those abstract entities which have no material constituents and are therefore, by conception, located neither in space nor time, and causally independent of the material world.
+
+Such abstract entities suffice for pure mathematics, which provides essential tools for the formulation of theories about the physical world.
+
+\subsection{Declarative Language}
+
+A declarative language is a way of coding information about some domain of interest using some system of symbols which is called \emph{syntax}.
+The relationship between the syntax and the domain it concerns is called \emph{semantics}.
+
+Languages to some extent prejudice the nature of the domain of interest, for it is difficult to speak of some domain without having names to refer to features of the domain, and these choices to limit the possibilities.
+
+Among the syntactic entities some are the names of objects in the domain of interest, 
+
+
+A foundation system is a kind of generic declarative language.
+There are two ways of thinking about language, and of defining language.
+
+In describing first order logic, it is usual to speak of a first order language as having a fixed vocabulary, adding further named constants creates a new first order language.
+
+This is not what happens with natural languages, which constantly evolve both in terms of adding new words, and by changes to the meaning of existing words.
+That does give problems in maintaining logical coherence, avoiding equivocation may become nigh impossible.
+So if we want to give precise definitions of semantics and provide reliable (sound) rules of deduction, holding the vocabulary fixed is a good idea.
+When we come to practical applications its not so attractive.
+
+Programming languages are not associated with a fixed vocabulary.
+You get a variety of constructs and defined terms which come with the language, but the modus operandum is that the process of writing a program consists in chosing new names and adding them to the vocabulary with their definitions.
+Formal logical systems designed for practical use are similar.
+
+For the purposes of this monograph minimalistic logical kernels devised to be safely extendable are the order of the day.
+
+\subsection{What is Logical Truth}
+
+
+In essence it is Carnap's conception of logical truth which is presented here \endnote{This topic has been controversial among philosophers in the twentieth century, particularly because of the identification by Rudolf Carnap of logical truth with \emph{analyticity}\cite{carnap47,carnap63a} and the very influential attack by Quine \cite{quineTDE} on that concept.
+  My own view is that Carnap's choice of terminology was good, and Quine's attack baseless, but it is not my purpose here to argue that case.}%
+(though the presentation is very different, as is the philosophical context in which it is placed).
+It has a purpose which could not be filled by any of the alternative conceptions of logical truth.
+Disagreements about terminology (what word to use for a concept)  have no impact on the substance of this proposal.
+
+A \rbjdef{logical truth} is a certain kind of sentence in a declarative language, and its definition depends upon the meaning of the sentence.
+It is therefore necessary to define the concept of declarative language and its semantics before we come to a definition of logical truth.
+
+
+
+
+
+Foundational thinking has to address the problem of foundational regress, the need to underpin a supposed foundation.
+Foundational thinking is reductionist, it is the thesis that for some kind of knowledge.

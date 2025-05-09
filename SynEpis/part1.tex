@@ -1,0 +1,219 @@
+% $Id: part1.tex $ #
+\documentclass[10pt,titlepage]{book}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{unicode-math}
+\usepackage[unicode]{hyperref}
+\usepackage{endnotes}
+
+\usepackage{paralist}
+\usepackage{relsize}
+\usepackage{verbatim}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{markdown}
+
+\usepackage{fontspec}
+
+% Greek Characters
+
+\setmainfont{TeX Gyre Pagella}[Ligatures=TeX]
+\setmathfont{TeX Gyre Pagella Math}[Ligatures=TeX]
+%\setmainfont{TeX Gyre Pagella}
+\newfontfamily\greekfont{GFS Didot}
+
+\usepackage[paperwidth=5.25in,paperheight=8in,hmargin={0.75in,0.5in},vmargin={0.5in,0.5in},includehead,includefoot]{geometry}
+\hypersetup{pdfauthor={Roger Bishop Jones}}
+\hypersetup{pdftitle={An Epistemological Synthesis}}
+\hypersetup{colorlinks=true, urlcolor=red, citecolor=blue, filecolor=blue, linkcolor=blue}
+%\usepackage{html}
+\renewcommand{\thefootnote}{\roman{footnote}}
+
+\newcommand{\ignore}[1]{}
+
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=nty
+]{biblatex}
+\addbibresource{rbj4.bib}
+
+\newcommand{\rbjdeff}[1]{\textbf{\itshape{#1}}}
+\newcommand{\rbjdef}[1]{\rbjdeff{#1}\label{LABEL#1}\index{#1}}
+\newcommand{\rbjuse}[1]{\hyperref[LABEL#1]{\itshape{#1}}}
+\newcommand{\hreg}[2]{\href{#1}{#2}\footnote{\url{#1}}}
+\newcommand{\contribnote}[1]{\vfil
+  {\bf Note for Contributors:}
+    \begin{quote}
+      {\it #1}
+    \end{quote}
+    \vfil
+  }
+
+\makeatletter
+\renewcommand\enoteheading{\section*{\notesname}%
+    \@mkboth{\notesname}{\notesname}}
+
+\newcommand{\resetnotes}{%
+  \ifnum\value{endnote}>0%
+  \theendnotes%
+  \setcounter{endnote}{0}%
+  \else%
+  \fi%
+}
+
+\newcommand{\chapnote}[1]{%
+  \chapter{#1}
+  \input{{#1}.tex}
+  \resetnotes
+}
+
+\makeatother
+
+\pagestyle{plain}
+\makeindex
+
+\title{\bf\LARGE An Epistemological Synthesis}
+\author{Roger~Bishop~Jones}
+\date{\small 2024-09-22}
+
+
+\begin{document}
+%\frontmatter
+
+%\begin{abstract}
+% Philosophical preliminaries to the design of knowledge management software.
+%
+%\end{abstract}
+                               
+\begin{titlepage}
+\maketitle
+
+%\vfill
+
+%\begin{centering}
+
+%{\footnotesize
+%copyright\ Roger~Bishop~Jones;
+%}%footnotesize
+
+%\end{centering}
+
+\end{titlepage}
+
+\ \
+
+\ignore{
+\begin{centering}
+{}
+\end{centering}
+}%ignore
+
+\setcounter{tocdepth}{2}
+{\parskip-0pt\tableofcontents}
+
+%\mainmatter
+
+\chapter{Introduction}
+
+\contribnote{Please read Appendix \ref{InstructionsForAIContributors} first for instructions on how to read this document and the ways in which you might contribute to its composition.}
+\input{intro15.tex}
+
+\chapter{Some History}
+
+\input{unilog01.tex}
+
+\resetnotes
+
+\chapter{Semantic Foundation Systems}
+
+
+\ignore{
+
+\chapter{Synthetic Epistemology and Foundational Abstract Semantics}
+
+\input{epistem01.tex}
+\resetnotes
+
+\chapter{The Evolution of Declarative Knowledge}\label{EDK}
+
+\input{edk02.tex}
+\resetnotes
+
+\chapter{A Philosophical Kernel 2}
+
+\input{kernel2.tex}
+\resetnotes
+
+\chapter{A Philosophical Kernel 3}
+
+\input{kernel3.tex}
+\resetnotes
+
+\chapter{A Philosophical Kernel}\label{PK}
+
+\input{kernel5.tex}
+\resetnotes
+
+\chapter{The Fundamental Triple Trichotomy}\label{FTT}
+
+\input{ftt01.tex}
+\resetnotes
+}%ignore
+
+\appendix
+\ignore{
+\chapter{The Philosophy of Rudolf Carnap}\label{PRC}
+
+\input{carnap01.tex}
+\resetnotes
+}%ignore
+
+\chapter{Formal Specifications of Gordon's HOL}\label{HOLspecs}
+
+\input{holdetails.tex}
+
+\markdownInput{CONTRIBUTING.md}
+
+\chapter{Instructions for AI Contributors}\label{InstructionsForAIContributors}
+
+I have written this monograph with copious assistance from Grok 3, an AI chatbot from xAI.
+
+Notwithstanding the invaluable contribution Grok has made, the writing is all mine.
+
+The following section contains the general instructions which I have used to brief Grok.
+Naturally, these instructions have evolved over the course of the writing and this their state at the end.
+Different stages in the process demand different instructions, and I have tried to keep instructions of a general character  in a separate file (presented below), with supplementary files giving more specific asks for particular stages.
+
+\section{General Guidance for AI Contributions}
+
+\input{grok3in.tex}
+
+
+
+\listoftables
+%\listoffigures
+
+%\phantomsection
+\addcontentsline{toc}{section}{Bibliography}
+\printbibliography[title={Bibliography}]
+
+%\phantomsection
+\renewcommand{\indexname}{Index of Defined Terms}
+\addcontentsline{toc}{section}{Index of Defined Terms}
+{\twocolumn[]
+{\small\printindex}}
+
+%\vfill
+
+%\tiny{
+%Started 2024-10-19
+%}%tiny
+
+\end{document}
+
+% LocalWords:
