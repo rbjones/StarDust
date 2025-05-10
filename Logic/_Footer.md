@@ -1,1 +1,1 @@
-The [DA-Hol](https://rbjones.github.io/DA-Hol) [wiki](https://github.com/rbjones/DA-Hol/wiki)
+The [HoLoTruth](https://rbjones.github.io/HoLoTruth) [wiki](https://github.com/rbjones/HoLoTruth/wiki)
