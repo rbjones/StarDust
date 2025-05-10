@@ -1,1 +1,0 @@
-The [HoLoTruth](https://rbjones.github.io/HoLoTruth) [wiki](https://github.com/rbjones/HoLoTruth/wiki)
